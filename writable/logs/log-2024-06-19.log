@@ -1,0 +1,793 @@
+INFO - 2024-06-19 08:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 09:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 09:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 09:15:36 --> ErrorException: Undefined variable $response
+[Method: GET, Route: formation/List]
+in APPPATH/Controllers/FormationController.php on line 106.
+ 1 APPPATH/Controllers/FormationController.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->list()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-19 09:16:06 --> ErrorException: Undefined variable $response
+[Method: GET, Route: formation/List]
+in APPPATH/Controllers/FormationController.php on line 106.
+ 1 APPPATH/Controllers/FormationController.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->list()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-19 09:44:59 --> ErrorException: Declaration of App\Controllers\FormationController::delete($id_formation) must be compatible with CodeIgniter\RESTful\ResourcePresenter::delete($id = null)
+[Method: GET, Route: formation/List]
+in APPPATH/Controllers/FormationController.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-19 11:54:05 --> ErrorException: Undefined array key 0
+[Method: POST, Route: formation/Update]
+in APPPATH/Controllers/FormationController.php on line 69.
+ 1 APPPATH/Controllers/FormationController.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->updateFormation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-19 12:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 12:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 12:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 13:16:52 --> Exception: table training has no column named description in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `tr...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `tr...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\FormationController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 13:16:53 --> CodeIgniter\Database\Exceptions\DatabaseException: table training has no column named description
+[Method: POST, Route: formation/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:16:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: table training has no column named description
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:52\', \'2024-06-19 13:06:52\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:52\', \'2024-06-19 13:06:52\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:16:53 --> [Caused by] Exception: table training has no column named description
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:52\', \'2024-06-19 13:06:52\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:52\', \'2024-06-19 13:06:52\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:52\', \'2024-06-19 13:06:52\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 13:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 13:17:21 --> Exception: table training has no column named description in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `tr...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `tr...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\FormationController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 13:17:21 --> CodeIgniter\Database\Exceptions\DatabaseException: table training has no column named description
+[Method: POST, Route: formation/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:17:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: table training has no column named description
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:21\', \'2024-06-19 13:06:21\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:21\', \'2024-06-19 13:06:21\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:17:21 --> [Caused by] Exception: table training has no column named description
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:21\', \'2024-06-19 13:06:21\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:21\', \'2024-06-19 13:06:21\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'150000\', \'formation ccna\', \'<p>certification reseau<br></p>\', 1, \'2024-06-19 13:06:21\', \'2024-06-19 13:06:21\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 13:17:47 --> Exception: table training has no column named description in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `tr...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `tr...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\FormationController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 13:17:47 --> CodeIgniter\Database\Exceptions\DatabaseException: table training has no column named description
+[Method: POST, Route: formation/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:17:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: table training has no column named description
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'1000\', \'asdf\', \'<p>Szdxc<br></p>\', 1, \'2024-06-19 13:06:47\', \'2024-06-19 13:06:47\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'1000\', \'asdf\', \'<p>Szdxc<br></p>\', 1, \'2024-06-19 13:06:47\', \'2024-06-19 13:06:47\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:17:47 --> [Caused by] Exception: table training has no column named description
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'1000\', \'asdf\', \'<p>Szdxc<br></p>\', 1, \'2024-06-19 13:06:47\', \'2024-06-19 13:06:47\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'1000\', \'asdf\', \'<p>Szdxc<br></p>\', 1, \'2024-06-19 13:06:47\', \'2024-06-19 13:06:47\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'1000\', \'asdf\', \'<p>Szdxc<br></p>\', 1, \'2024-06-19 13:06:47\', \'2024-06-19 13:06:47\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `training` (`training_amount`, `training_type`, `description`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:training_amount:, :training_type:, :description:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\FormationController.php(159): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 13:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 13:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 13:42:16 --> ErrorException: Undefined array key "user_id"
+[Method: POST, Route: rapport/Save]
+in APPPATH\Controllers\RapportController.php on line 35.
+ 1 APPPATH\Controllers\RapportController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\RapportController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 13:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 13:59:46 --> Exception: NOT NULL constraint failed: report.contents in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `re...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `re...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\RapportController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 13:59:46 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.contents
+[Method: POST, Route: rapport/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:59:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.contents
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 13:06:46\', \'2024-06-19 13:06:46\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 13:06:46\', \'2024-06-19 13:06:46\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 13:59:46 --> [Caused by] Exception: NOT NULL constraint failed: report.contents
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 13:06:46\', \'2024-06-19 13:06:46\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 13:06:46\', \'2024-06-19 13:06:46\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 13:06:46\', \'2024-06-19 13:06:46\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 14:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 14:00:11 --> Exception: NOT NULL constraint failed: report.contents in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `re...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `re...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\RapportController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 14:00:11 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.contents
+[Method: POST, Route: rapport/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 14:00:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.contents
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 14:00:11 --> [Caused by] Exception: NOT NULL constraint failed: report.contents
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 14:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 14:01:11 --> Exception: NOT NULL constraint failed: report.user_id in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `re...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `re...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\RapportController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 14:01:11 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.user_id
+[Method: POST, Route: rapport/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :contents:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 14:01:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.user_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>zffgxhghjgjh<br></p>\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>zffgxhghjgjh<br></p>\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :contents:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 14:01:11 --> [Caused by] Exception: NOT NULL constraint failed: report.user_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>zffgxhghjgjh<br></p>\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>zffgxhghjgjh<br></p>\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>zffgxhghjgjh<br></p>\', \'2024-06-19 14:06:11\', \'2024-06-19 14:06:11\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `contents`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :contents:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 14:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 14:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 14:20:31 --> Exception: NOT NULL constraint failed: report.report_name in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `re...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `re...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\RapportController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 14:20:31 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.report_name
+[Method: POST, Route: rapport/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 14:20:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.report_name
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>sZDrftdygfuhgij<br></p>\', 1, \'2024-06-19 14:06:31\', \'2024-06-19 14:06:31\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>sZDrftdygfuhgij<br></p>\', 1, \'2024-06-19 14:06:31\', \'2024-06-19 14:06:31\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 14:20:31 --> [Caused by] Exception: NOT NULL constraint failed: report.report_name
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>sZDrftdygfuhgij<br></p>\', 1, \'2024-06-19 14:06:31\', \'2024-06-19 14:06:31\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>sZDrftdygfuhgij<br></p>\', 1, \'2024-06-19 14:06:31\', \'2024-06-19 14:06:31\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'<p>sZDrftdygfuhgij<br></p>\', 1, \'2024-06-19 14:06:31\', \'2024-06-19 14:06:31\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 14:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 14:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 16:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 16:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 16:29:30 --> Exception: NOT NULL constraint failed: report.id_user in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `re...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `re...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\RapportController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 16:29:30 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.id_user
+[Method: POST, Route: rapport/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 16:29:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.id_user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:30\', \'2024-06-19 16:06:30\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:30\', \'2024-06-19 16:06:30\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 16:29:30 --> [Caused by] Exception: NOT NULL constraint failed: report.id_user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:30\', \'2024-06-19 16:06:30\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:30\', \'2024-06-19 16:06:30\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:30\', \'2024-06-19 16:06:30\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 16:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 16:29:56 --> Exception: NOT NULL constraint failed: report.id_user in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `re...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `re...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\RapportController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 16:29:56 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.id_user
+[Method: POST, Route: rapport/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 16:29:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.id_user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:56\', \'2024-06-19 16:06:56\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:56\', \'2024-06-19 16:06:56\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 16:29:56 --> [Caused by] Exception: NOT NULL constraint failed: report.id_user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:56\', \'2024-06-19 16:06:56\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:56\', \'2024-06-19 16:06:56\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-20\', \'sdfghb\', \'<p>eawsrtdfuyj<br></p>\', NULL, \'2024-06-19 16:06:56\', \'2024-06-19 16:06:56\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 16:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 16:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 16:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 16:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 16:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 19:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 19:18:50 --> Exception: NOT NULL constraint failed: report.id_user in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `re...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `re...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\RapportController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-19 19:18:50 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.id_user
+[Method: POST, Route: rapport/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 19:18:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: report.id_user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'dfghjkl\', \'<p>zxcvgbhbjkl<br></p>\', NULL, \'2024-06-19 19:06:50\', \'2024-06-19 19:06:50\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'dfghjkl\', \'<p>zxcvgbhbjkl<br></p>\', NULL, \'2024-06-19 19:06:50\', \'2024-06-19 19:06:50\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-19 19:18:50 --> [Caused by] Exception: NOT NULL constraint failed: report.id_user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'dfghjkl\', \'<p>zxcvgbhbjkl<br></p>\', NULL, \'2024-06-19 19:06:50\', \'2024-06-19 19:06:50\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'dfghjkl\', \'<p>zxcvgbhbjkl<br></p>\', NULL, \'2024-06-19 19:06:50\', \'2024-06-19 19:06:50\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'2024-06-19\', \'dfghjkl\', \'<p>zxcvgbhbjkl<br></p>\', NULL, \'2024-06-19 19:06:50\', \'2024-06-19 19:06:50\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`date`, `report_name`, `contents`, `id_user`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:date:, :report_name:, :contents:, :id_user:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\RapportController.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RapportController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RapportController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-19 19:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 19:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 19:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 21:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 21:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 23:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

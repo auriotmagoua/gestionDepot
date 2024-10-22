@@ -1,0 +1,850 @@
+WARNING - 2024-09-25 10:04:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:04:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:04:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:05:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:05:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:05:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:05:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:06:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:07:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:08:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:08:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:08:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:08:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:08:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 10:09:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 10:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 10:51:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/client/save_payement.php"
+[Method: GET, Route: view/Save_payement]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(111): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Save_payement()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+WARNING - 2024-09-25 12:38:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 12:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 12:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 12:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 12:42:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 12:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 12:55:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 12:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 13:24:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 13:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 13:25:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 13:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 13:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/diso-gestion/public/index.php')
+INFO - 2024-09-25 13:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 14:49:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 14:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 14:50:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 14:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 14:56:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 14:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 14:56:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 14:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 14:57:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 14:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 21:02:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/user/save_utilisateur.php"
+[Method: GET, Route: view/Save_utilisateur]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(117): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Save_utilisateur()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:09:28 --> Error: Undefined constant "localStorage"
+[Method: GET, Route: user/Change_password]
+in APPPATH/Views/pages/user/change_password.php on line 47.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(114): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Change_password()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:09:29 --> Error: Undefined constant "localStorage"
+[Method: GET, Route: user/Change_password]
+in APPPATH/Views/pages/user/change_password.php on line 47.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(114): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Change_password()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:10:03 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: user/Change_password]
+in APPPATH/Views/pages/user/change_password.php on line 47.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(114): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:10:04 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: user/Change_password]
+in APPPATH/Views/pages/user/change_password.php on line 47.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(114): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:10:04 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: user/Change_password]
+in APPPATH/Views/pages/user/change_password.php on line 47.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(114): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:23:35 --> Error: Undefined constant "localStorage"
+[Method: GET, Route: user/Change_password]
+in APPPATH/Views/pages/user/change_password.php on line 47.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(114): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Change_password()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:23:36 --> Error: Undefined constant "localStorage"
+[Method: GET, Route: user/Change_password]
+in APPPATH/Views/pages/user/change_password.php on line 47.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(114): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->Change_password()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:36:46 --> ErrorException: include(History/HistorySession.php): Failed to open stream: No such file or directory
+[Method: GET, Route: user/LogOut]
+in APPPATH/Controllers/AuthentificationController.php on line 13.
+ 1 APPPATH/Controllers/AuthentificationController.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/AuthentificationController.php(13): include()
+ 3 VENDORPATH/composer/ClassLoader.php(576): include('/home/auriot/Documents/app-gestion/app/Controllers/AuthentificationController.php')
+ 4 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 6 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:37:04 --> ErrorException: include(History/HistorySession.php): Failed to open stream: No such file or directory
+[Method: GET, Route: user/LogOut]
+in APPPATH/Controllers/AuthentificationController.php on line 13.
+ 1 APPPATH/Controllers/AuthentificationController.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/AuthentificationController.php(13): include()
+ 3 VENDORPATH/composer/ClassLoader.php(576): include('/home/auriot/Documents/app-gestion/app/Controllers/AuthentificationController.php')
+ 4 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 6 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-25 21:37:13 --> ErrorException: include(History/HistorySession.php): Failed to open stream: No such file or directory
+[Method: GET, Route: user/LogOut]
+in APPPATH/Controllers/AuthentificationController.php on line 13.
+ 1 APPPATH/Controllers/AuthentificationController.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/AuthentificationController.php(13): include()
+ 3 VENDORPATH/composer/ClassLoader.php(576): include('/home/auriot/Documents/app-gestion/app/Controllers/AuthentificationController.php')
+ 4 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 6 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-25 21:42:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:42:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:42:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:51:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:51:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:51:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:51:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:51:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 21:52:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 21:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 23:17:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 23:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 23:18:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 23:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 23:18:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-25 23:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,670 @@
+INFO - 2024-06-22 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 08:02:16 --> Exception: Unable to prepare statement: 1, no such table: user in /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+#7 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+#8 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#14 {main}
+CRITICAL - 2024-06-22 08:02:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+[Method: POST, Route: user/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 08:02:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 08:02:16 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 08:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 08:02:31 --> Exception: Unable to prepare statement: 1, no such table: user in /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+#7 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+#8 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#14 {main}
+CRITICAL - 2024-06-22 08:02:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+[Method: POST, Route: user/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 08:02:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 08:02:31 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 08:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 08:05:21 --> Exception: Unable to prepare statement: 1, no such table: user in /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+#7 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+#8 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/angel/Vidéos/diso-gestion/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#14 {main}
+CRITICAL - 2024-06-22 08:05:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+[Method: POST, Route: user/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 08:05:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 08:05:21 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 08:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:59:30 --> Error: Class "Endroid\QrCode\Writer\PngWriter" not found
+[Method: POST, Route: presences/Qrcode_save]
+in APPPATH/Controllers/PresenceController.php on line 44.
+ 1 APPPATH/Controllers/PresenceController.php(96): App\Controllers\PresenceController->generate_qrcode()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->save()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 09:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 09:03:01 --> Error: Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow" not found
+[Method: POST, Route: presences/Qrcode_save]
+in APPPATH/Controllers/PresenceController.php on line 49.
+ 1 APPPATH/Controllers/PresenceController.php(96): App\Controllers\PresenceController->generate_qrcode()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->save()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 09:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 09:03:21 --> Error: Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow" not found
+[Method: POST, Route: presences/Qrcode_save]
+in APPPATH/Controllers/PresenceController.php on line 49.
+ 1 APPPATH/Controllers/PresenceController.php(96): App\Controllers\PresenceController->generate_qrcode()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->save()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 09:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 09:09:50 --> Exception: Unable to generate image: please check if the GD extension is enabled and configured correctly
+[Method: POST, Route: presences/Qrcode_save]
+in VENDORPATH/endroid/qr-code/src/Writer/AbstractGdWriter.php on line 26.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(25): Endroid\QrCode\Writer\AbstractGdWriter->write()
+ 2 APPPATH/Controllers/PresenceController.php(64): Endroid\QrCode\Writer\PngWriter->write()
+ 3 APPPATH/Controllers/PresenceController.php(96): App\Controllers\PresenceController->generate_qrcode()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 09:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 09:45:04 --> ErrorException: Undefined variable $TrainingModel
+[Method: GET, Route: presences/Qrcode_delete/2]
+in APPPATH/Controllers/PresenceController.php on line 177.
+ 1 APPPATH/Controllers/PresenceController.php(177): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->delete_qrcode()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 09:45:15 --> ErrorException: Undefined variable $TrainingModel
+[Method: GET, Route: presences/Qrcode_delete/1]
+in APPPATH/Controllers/PresenceController.php on line 177.
+ 1 APPPATH/Controllers/PresenceController.php(177): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->delete_qrcode()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 10:26:40 --> ErrorException: Undefined variable $TrainingModel
+[Method: GET, Route: presences/Qrcode_desactive/2]
+in APPPATH/Controllers/PresenceController.php on line 220.
+ 1 APPPATH/Controllers/PresenceController.php(220): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->desactive_qrcode()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 10:39:38 --> ErrorException: Undefined variable $TrainingModel
+[Method: GET, Route: presences/Qrcode_active/2]
+in APPPATH/Controllers/PresenceController.php on line 263.
+ 1 APPPATH/Controllers/PresenceController.php(263): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->activier_qrcode()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 11:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:16:49 --> Error: Class "App\Controllers\FPDF_CERT" not found
+[Method: GET, Route: presences/Print_qrcode/3]
+in APPPATH/Controllers/PresenceController.php on line 312.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:17:41 --> Error: Class "App\Controllers\Fthis" not found
+[Method: GET, Route: presences/Print_qrcode/3]
+in APPPATH/Controllers/report/FPDF_QRCODE.php on line 6.
+ 1 APPPATH/Controllers/PresenceController.php(21): include()
+ 2 VENDORPATH/composer/ClassLoader.php(576): include('/home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/PresenceController.php')
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:18:09 --> Error: Class "App\Controllers\Fthis" not found
+[Method: GET, Route: presences/Qrcode_list]
+in APPPATH/Controllers/report/FPDF_QRCODE.php on line 6.
+ 1 APPPATH/Controllers/PresenceController.php(21): include()
+ 2 VENDORPATH/composer/ClassLoader.php(576): include('/home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/PresenceController.php')
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:18:29 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/3]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(10): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:18:42 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/2]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(10): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:18:45 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(10): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:19:22 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/3]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(10): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(329): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:23:00 --> Error: Class "App\Controllers\FPDF" not found
+[Method: GET, Route: presences/Qrcode_list]
+in APPPATH/Controllers/report/FPDF_QRCODE.php on line 6.
+ 1 APPPATH/Controllers/PresenceController.php(21): include()
+ 2 VENDORPATH/composer/ClassLoader.php(576): include('/home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/PresenceController.php')
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:23:32 --> Error: Class "App\Controllers\FPDF" not found
+[Method: GET, Route: presences/Qrcode_list]
+in APPPATH/Controllers/report/FPDF_QRCODE.php on line 6.
+ 1 APPPATH/Controllers/PresenceController.php(21): include()
+ 2 VENDORPATH/composer/ClassLoader.php(576): include('/home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/PresenceController.php')
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:29:29 --> Error: Class "App\Controllers\FPDF" not found
+[Method: GET, Route: presences/Qrcode_list]
+in APPPATH/Controllers/report/FPDF_QRCODE.php on line 6.
+ 1 APPPATH/Controllers/PresenceController.php(21): include()
+ 2 VENDORPATH/composer/ClassLoader.php(576): include('/home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/PresenceController.php')
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 11:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:30:49 --> Error: Class "App\Controllers\FPDF" not found
+[Method: GET, Route: presences/Qrcode_list]
+in APPPATH/Controllers/report/FPDF_QRCODE.php on line 6.
+ 1 APPPATH/Controllers/PresenceController.php(21): include()
+ 2 VENDORPATH/composer/ClassLoader.php(576): include('/home/angel/Vidéos/diso-gestion/diso-gestion/app/Controllers/PresenceController.php')
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:33:15 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/3]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(10): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(329): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:34:44 --> Exception: FPDF error: No page has been added yet
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(1451): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/fpdf/fpdf.php(646): App\Controllers\FPDF->_out()
+ 3 APPPATH/Controllers/report/FPDF_QRCODE.php(14): App\Controllers\FPDF->Cell()
+ 4 APPPATH/Controllers/PresenceController.php(329): App\Controllers\FPDF_QRCODE->printFthis()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:38:07 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(10): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:38:32 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(10): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:40:57 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(11): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:41:40 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(12): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:41:52 --> Exception: FPDF error: No font has been set
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 274.
+ 1 APPPATH/Controllers/fpdf/fpdf.php(628): App\Controllers\FPDF->Error()
+ 2 APPPATH/Controllers/report/FPDF_QRCODE.php(12): App\Controllers\FPDF->Cell()
+ 3 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:43:05 --> ErrorException: fopen(qrCode/qrCode/): Failed to open stream: No such file or directory
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 1260.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/fpdf/fpdf.php(1260): fopen()
+ 3 APPPATH/Controllers/fpdf/fpdf.php(888): App\Controllers\FPDF->_parsepng()
+ 4 APPPATH/Controllers/report/FPDF_QRCODE.php(27): App\Controllers\FPDF->Image()
+ 5 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:43:34 --> ErrorException: fopen(qrCode/qrCode/): Failed to open stream: No such file or directory
+[Method: GET, Route: presences/Print_qrcode/1]
+in APPPATH/Controllers/fpdf/fpdf.php on line 1260.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/fpdf/fpdf.php(1260): fopen()
+ 3 APPPATH/Controllers/fpdf/fpdf.php(888): App\Controllers\FPDF->_parsepng()
+ 4 APPPATH/Controllers/report/FPDF_QRCODE.php(27): App\Controllers\FPDF->Image()
+ 5 APPPATH/Controllers/PresenceController.php(328): App\Controllers\FPDF_QRCODE->printFthis()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+CRITICAL - 2024-06-22 11:47:44 --> ErrorException: fopen(qrCode/qrCode/sfdsf118.png): Failed to open stream: No such file or directory
+[Method: GET, Route: presences/Print_qrcode/3]
+in APPPATH/Controllers/fpdf/fpdf.php on line 1260.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/fpdf/fpdf.php(1260): fopen()
+ 3 APPPATH/Controllers/fpdf/fpdf.php(888): App\Controllers\FPDF->_parsepng()
+ 4 APPPATH/Controllers/report/FPDF_QRCODE.php(27): App\Controllers\FPDF->Image()
+ 5 APPPATH/Controllers/PresenceController.php(327): App\Controllers\FPDF_QRCODE->printFthis()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PresenceController->print_qrcode()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/diso-gestion/public/index.php')
+INFO - 2024-06-22 11:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 14:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 14:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 14:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 14:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 15:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 16:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

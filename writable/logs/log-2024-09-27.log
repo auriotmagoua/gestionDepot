@@ -1,0 +1,1712 @@
+CRITICAL - 2024-09-27 05:03:44 --> ErrorException: Cannot redeclare App\Models\UserModel::getUserById()
+[Method: GET, Route: user/List_user]
+in APPPATH/Models/UserModel.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-27 05:04:05 --> ErrorException: Cannot redeclare App\Models\UserModel::getUserById()
+[Method: GET, Route: user/List_user]
+in APPPATH/Models/UserModel.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-27 05:05:03 --> ErrorException: Cannot redeclare App\Models\UserModel::getUserById()
+[Method: GET, Route: user/List_user]
+in APPPATH/Models/UserModel.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-09-27 05:13:47 --> SQLite3Exception: database is locked in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(865): CodeIgniter\BaseModel->update()
+#7 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(112): CodeIgniter\Model->update()
+#8 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-09-27 05:13:47 --> CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+[Method: GET, Route: user/Delete/3]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 5 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:13:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 7 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:13:47 --> [Caused by] SQLite3Exception: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 8 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+ERROR - 2024-09-27 05:14:05 --> SQLite3Exception: database is locked in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(865): CodeIgniter\BaseModel->update()
+#7 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(112): CodeIgniter\Model->update()
+#8 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-09-27 05:14:05 --> CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+[Method: GET, Route: user/Delete/3]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 5 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:14:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 7 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:14:05 --> [Caused by] SQLite3Exception: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 8 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+ERROR - 2024-09-27 05:15:16 --> SQLite3Exception: database is locked in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(865): CodeIgniter\BaseModel->update()
+#7 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(112): CodeIgniter\Model->update()
+#8 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-09-27 05:15:16 --> CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+[Method: GET, Route: user/Delete/3]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 5 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:15:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 7 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:15:16 --> [Caused by] SQLite3Exception: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 8 APPPATH/Controllers/UserController.php(112): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->deleteUser()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+ERROR - 2024-09-27 05:18:55 --> SQLite3Exception: Unable to prepare statement: no such table: users in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/app/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->list()
+#7 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-09-27 05:18:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such table: users
+[Method: GET, Route: user/List_user]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->list()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:18:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such table: users
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->list()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:18:55 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such table: users
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->list()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 05:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 05:21:18 --> SQLite3Exception: Unable to prepare statement: no such table: users in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/app/Models/UserModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(37): App\Models\UserModel->getUser()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->save()
+#7 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-09-27 05:21:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such table: users
+[Method: POST, Route: user/Save_user]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/UserModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(37): App\Models\UserModel->getUser()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:21:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such table: users
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/UserModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/UserController.php(37): App\Models\UserModel->getUser()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:21:18 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such table: users
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/UserController.php(37): App\Models\UserModel->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 05:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 05:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 05:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 05:41:53 --> SQLite3Exception: database is locked in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(802): CodeIgniter\BaseModel->insert()
+#7 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/BaseModel.php(751): CodeIgniter\Model->insert()
+#8 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#16 {main}
+CRITICAL - 2024-09-27 05:41:53 --> CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+[Method: POST, Route: user/Save_user]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:41:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:41:53 --> [Caused by] SQLite3Exception: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 05:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 05:42:04 --> SQLite3Exception: database is locked in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Model.php(802): CodeIgniter\BaseModel->insert()
+#7 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/BaseModel.php(751): CodeIgniter\Model->insert()
+#8 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#16 {main}
+CRITICAL - 2024-09-27 05:42:04 --> CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+[Method: POST, Route: user/Save_user]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:42:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:42:04 --> [Caused by] SQLite3Exception: database is locked
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/UserController.php(58): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 05:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 05:53:29 --> ErrorException: Undefined variable $UserModel
+[Method: GET, Route: client/List_client]
+in APPPATH/Controllers/ClientController.php on line 85.
+ 1 APPPATH/Controllers/ClientController.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ClientController->list()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 05:53:43 --> ErrorException: Undefined variable $UserModel
+[Method: GET, Route: client/List_client]
+in APPPATH/Controllers/ClientController.php on line 85.
+ 1 APPPATH/Controllers/ClientController.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ClientController->list()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 05:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 06:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:06:37 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: view/%3C]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 06:12:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 06:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 06:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:15:16 --> ErrorException: Undefined variable $idClient
+[Method: GET, Route: client/Delete/3]
+in APPPATH/Controllers/ClientController.php on line 111.
+ 1 APPPATH/Controllers/ClientController.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ClientController->deleteClient()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 06:15:57 --> ErrorException: Undefined variable $idClient
+[Method: GET, Route: client/Delete/3]
+in APPPATH/Controllers/ClientController.php on line 111.
+ 1 APPPATH/Controllers/ClientController.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ClientController->deleteClient()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 06:16:19 --> ErrorException: Undefined variable $idClient
+[Method: GET, Route: client/Delete/3]
+in APPPATH/Controllers/ClientController.php on line 111.
+ 1 APPPATH/Controllers/ClientController.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ClientController->deleteClient()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 06:16:52 --> ErrorException: Undefined variable $idUser
+[Method: GET, Route: client/Delete/3]
+in APPPATH/Controllers/ClientController.php on line 94.
+ 1 APPPATH/Controllers/ClientController.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ClientController->deleteClient()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 06:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 06:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 08:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 08:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 08:24:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: view/%3C]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+ERROR - 2024-09-27 08:28:30 --> SQLite3Exception: Unable to prepare statement: no such column: tyUser in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/app-gestion/app/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/auriot/Documents/app-gestion/app/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+#6 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\UserController->list()
+#7 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/auriot/Documents/app-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-09-27 08:28:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: tyUser
+[Method: GET, Route: user/List_user]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->list()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 08:28:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: tyUser
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->list()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 08:28:30 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: tyUser
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/UserController.php(86): App\Models\UserModel->getAllUser()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->list()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 08:46:02 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::pot()
+[Method: POST, Route: user/ReinitialiserPassword/10]
+in APPPATH/Config/Routes.php on line 30.
+ 1 SYSTEMPATH/Router/RouteCollection.php(800): CodeIgniter\Router\RouteCollection::{closure}()
+ 2 APPPATH/Config/Routes.php(23): CodeIgniter\Router\RouteCollection->group()
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/home/auriot/Documents/app-gestion/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 08:47:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 08:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 09:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 09:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:09:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:09:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:10:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:10:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:14:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:14:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:14:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:17:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 09:17:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 09:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 09:38:25 --> Error: Undefined constant "App\Controllers\data_user"
+[Method: POST, Route: user/Change_password/4]
+in APPPATH/Controllers/UserController.php on line 214.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:38:54 --> Error: Undefined constant "App\Controllers\data_user"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 214.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:39:26 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 214.
+ 1 APPPATH/Controllers/UserController.php(214): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:42:16 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 214.
+ 1 APPPATH/Controllers/UserController.php(214): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:44:14 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:47:27 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:52:00 --> ErrorException: Undefined array key "idUser"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 197.
+ 1 APPPATH/Controllers/UserController.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:52:41 --> ErrorException: Undefined array key "idUser"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 197.
+ 1 APPPATH/Controllers/UserController.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:54:34 --> ParseError: syntax error, unexpected token "if"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 199.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 09:54:50 --> ErrorException: Undefined variable $password
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 216.
+ 1 APPPATH/Controllers/UserController.php(216): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 10:01:28 --> ErrorException: Undefined array key "idUser"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 10:01:52 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 10:05:41 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 10:06:11 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 10:07:15 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 10:08:53 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 196.
+ 1 APPPATH/Controllers/UserController.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 10:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 10:20:27 --> ParseError: syntax error, unexpected variable "$response"
+[Method: POST, Route: user/Change_password/6]
+in APPPATH/Controllers/UserController.php on line 217.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 10:45:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 10:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 10:45:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 10:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 11:12:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 11:12:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 11:12:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 11:13:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 11:13:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 11:27:58 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 191.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 11:29:17 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 191.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 11:29:47 --> ErrorException: Undefined variable $idUser
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 194.
+ 1 APPPATH/Controllers/UserController.php(194): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 11:31:23 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 191.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 11:34:52 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 191.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 11:36:00 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 191.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 11:36:10 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 191.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 11:53:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 11:53:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 11:53:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 11:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 11:58:40 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass]
+in APPPATH/Controllers/UserController.php on line 183.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 12:06:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 12:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 12:06:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 12:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 12:25:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 12:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 12:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 12:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 12:25:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 12:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 12:27:03 --> [DEPRECATED] md5(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/UserController.php on line 203.
+ 1 APPPATH/Controllers/UserController.php(203): md5(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword('7')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 12:27:03 --> [DEPRECATED] md5(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/UserController.php on line 206.
+ 1 APPPATH/Controllers/UserController.php(206): md5(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword('7')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 12:27:10 --> [DEPRECATED] md5(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/UserController.php on line 203.
+ 1 APPPATH/Controllers/UserController.php(203): md5(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword('2')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 12:27:10 --> [DEPRECATED] md5(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/UserController.php on line 206.
+ 1 APPPATH/Controllers/UserController.php(206): md5(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword('2')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 12:27:12 --> [DEPRECATED] md5(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/UserController.php on line 203.
+ 1 APPPATH/Controllers/UserController.php(203): md5(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword('2')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 12:27:12 --> [DEPRECATED] md5(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/UserController.php on line 206.
+ 1 APPPATH/Controllers/UserController.php(206): md5(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword('2')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 12:28:43 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/2]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 12:29:27 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/2]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 12:30:46 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/2]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 12:31:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/2]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 18:24:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:24:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 18:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:25:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:26:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:26:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:26:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:27:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 18:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:27:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 18:27:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 18:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 18:38:02 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::changePassword(), 0 passed in /home/auriot/Documents/app-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: user/Change_pass/]
+in APPPATH/Controllers/UserController.php on line 183.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->changePassword()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 19:10:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 19:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 19:10:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 19:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 19:12:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 19:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-27 19:13:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 19:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 19:13:36 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:16:17 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:17:55 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:22:39 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(217): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:23:14 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(218): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:29:31 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(218): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:29:53 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(218): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:30:31 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(218): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:32:45 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(218): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:33:43 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(218): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:34:43 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:35:25 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 19:38:17 --> [DEPRECATED] md5(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/UserController.php on line 203.
+ 1 APPPATH/Controllers/UserController.php(203): md5(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password('9')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:38:17 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 19:38:39 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/Change_pass/9]
+in SYSTEMPATH/BaseModel.php on line 1011.
+ 1 SYSTEMPATH/BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/UserController.php(216): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->change_password()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+WARNING - 2024-09-27 19:59:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+INFO - 2024-09-27 19:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 20:15:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: view/%3C]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 20:20:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: view/%3C]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 20:20:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: view/%3C]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')
+CRITICAL - 2024-09-27 20:21:24 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: view/%3C]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/app-gestion/public/index.php')

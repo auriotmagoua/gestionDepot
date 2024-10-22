@@ -1,0 +1,839 @@
+ERROR - 2024-10-02 00:09:32 --> SQLite3Exception: table `produit` already exists in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/app/Database/Migrations/2024-10-02-000921_ProduitMigration.php(56): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(867): App\Database\Migrations\ProduitMigration->up()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/appGes/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+ERROR - 2024-10-02 00:10:22 --> SQLite3Exception: table `produit` already exists in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/app/Database/Migrations/2024-10-02-000921_ProduitMigration.php(56): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(867): App\Database\Migrations\ProduitMigration->up()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/appGes/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+INFO - 2024-10-02 00:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 00:11:20 --> SQLite3Exception: Unable to prepare statement: no such column: name in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/app/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/appGes/app/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-10-02 00:11:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: name
+[Method: POST, Route: produit/Save_produit]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 00:11:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: name
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 00:11:20 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: name
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+INFO - 2024-10-02 00:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 00:11:32 --> SQLite3Exception: Unable to prepare statement: no such column: name in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/app/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/appGes/app/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-10-02 00:11:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: name
+[Method: POST, Route: produit/Save_produit]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 00:11:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: name
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 00:11:32 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: name
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+INFO - 2024-10-02 00:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 00:12:33 --> SQLite3Exception: Unable to prepare statement: no such column: name in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/app/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/appGes/app/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-10-02 00:12:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: name
+[Method: POST, Route: produit/Save_produit]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 00:12:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: name
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 00:12:33 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: name
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+INFO - 2024-10-02 00:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 00:52:53 --> ErrorException: Undefined variable $PaymentModel
+[Method: GET, Route: produit/historique/undefined]
+in APPPATH/Controllers/AcheterController.php on line 103.
+ 1 APPPATH/Controllers/AcheterController.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->historiqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 00:53:22 --> ErrorException: Undefined variable $id_user
+[Method: GET, Route: produit/historique/undefined]
+in APPPATH/Controllers/AcheterController.php on line 103.
+ 1 APPPATH/Controllers/AcheterController.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->historiqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 01:03:30 --> ErrorException: Cannot redeclare App\Controllers\AcheterController::getAllHistorique()
+[Method: GET, Route: produit/getAllNumFact]
+in APPPATH/Controllers/AcheterController.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-02 01:06:23 --> ArgumentCountError: Too few arguments to function App\Models\AcheterModel::getOneVente(), 0 passed in /var/www/html/appGes/app/Controllers/AcheterController.php on line 106 and exactly 1 expected
+[Method: GET, Route: produit/historique_one/undefined]
+in APPPATH/Models/AcheterModel.php on line 107.
+ 1 APPPATH/Controllers/AcheterController.php(106): App\Models\AcheterModel->getOneVente()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getOneHistorique()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 01:07:22 --> ArgumentCountError: Too few arguments to function App\Models\AcheterModel::getOneVente(), 0 passed in /var/www/html/appGes/app/Controllers/AcheterController.php on line 106 and exactly 1 expected
+[Method: GET, Route: produit/historique_one/undefined]
+in APPPATH/Models/AcheterModel.php on line 107.
+ 1 APPPATH/Controllers/AcheterController.php(106): App\Models\AcheterModel->getOneVente()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getOneHistorique()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 01:08:21 --> ArgumentCountError: Too few arguments to function App\Models\AcheterModel::getOneVente(), 0 passed in /var/www/html/appGes/app/Controllers/AcheterController.php on line 106 and exactly 1 expected
+[Method: GET, Route: produit/historique_one/undefined]
+in APPPATH/Models/AcheterModel.php on line 107.
+ 1 APPPATH/Controllers/AcheterController.php(106): App\Models\AcheterModel->getOneVente()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getOneHistorique()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 01:10:29 --> ArgumentCountError: Too few arguments to function App\Models\AcheterModel::getOneVente(), 0 passed in /var/www/html/appGes/app/Controllers/AcheterController.php on line 106 and exactly 1 expected
+[Method: GET, Route: produit/historique_one/undefined]
+in APPPATH/Models/AcheterModel.php on line 107.
+ 1 APPPATH/Controllers/AcheterController.php(106): App\Models\AcheterModel->getOneVente()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getOneHistorique()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 01:13:46 --> ArgumentCountError: Too few arguments to function App\Models\AcheterModel::getOneVente(), 0 passed in /var/www/html/appGes/app/Controllers/AcheterController.php on line 106 and exactly 1 expected
+[Method: GET, Route: produit/historique_one/undefined]
+in APPPATH/Models/AcheterModel.php on line 107.
+ 1 APPPATH/Controllers/AcheterController.php(106): App\Models\AcheterModel->getOneVente()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getOneHistorique()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 01:13:57 --> ArgumentCountError: Too few arguments to function App\Models\AcheterModel::getOneVente(), 0 passed in /var/www/html/appGes/app/Controllers/AcheterController.php on line 106 and exactly 1 expected
+[Method: GET, Route: produit/historique_one/undefined]
+in APPPATH/Models/AcheterModel.php on line 107.
+ 1 APPPATH/Controllers/AcheterController.php(106): App\Models\AcheterModel->getOneVente()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getOneHistorique()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 01:16:17 --> ErrorException: Undefined variable $numAcheter
+[Method: GET, Route: produit/historique_one/undefined]
+in APPPATH/Controllers/AcheterController.php on line 106.
+ 1 APPPATH/Controllers/AcheterController.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getOneHistorique()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+INFO - 2024-10-02 01:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 05:52:08 --> SQLite3Exception: table produit has no column named prixProduit in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/appGes/vendor/codeigniter4/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(802): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/BaseModel.php(751): CodeIgniter\Model->insert()
+#8 /var/www/html/appGes/app/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#16 {main}
+CRITICAL - 2024-10-02 05:52:08 --> CodeIgniter\Database\Exceptions\DatabaseException: table produit has no column named prixProduit
+[Method: POST, Route: produit/Save_produit]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 05:52:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: table produit has no column named prixProduit
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 05:52:08 --> [Caused by] SQLite3Exception: table produit has no column named prixProduit
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+INFO - 2024-10-02 05:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 05:52:16 --> SQLite3Exception: table produit has no column named prixProduit in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/appGes/vendor/codeigniter4/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(802): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/BaseModel.php(751): CodeIgniter\Model->insert()
+#8 /var/www/html/appGes/app/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#16 {main}
+CRITICAL - 2024-10-02 05:52:16 --> CodeIgniter\Database\Exceptions\DatabaseException: table produit has no column named prixProduit
+[Method: POST, Route: produit/Save_produit]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 05:52:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: table produit has no column named prixProduit
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 05:52:16 --> [Caused by] SQLite3Exception: table produit has no column named prixProduit
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(751): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/ProduitController.php(68): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+INFO - 2024-10-02 05:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 05:53:56 --> SQLite3Exception: Unable to prepare statement: no such column: prix in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/app/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/appGes/app/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+#7 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-10-02 05:53:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: prix
+[Method: POST, Route: produit/Save_produit]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 05:53:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: prix
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 05:53:56 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: prix
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ProduitModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ProduitController.php(46): App\Models\ProduitModel->getProduit()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProduitController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+INFO - 2024-10-02 05:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:27:35 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: POST, Route: produit/vente/1]
+in APPPATH/Controllers/AcheterController.php on line 74.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 06:27:41 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: POST, Route: produit/vente/1]
+in APPPATH/Controllers/AcheterController.php on line 74.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 06:28:02 --> TypeError: App\Controllers\AcheterController::respond(): Argument #2 ($status) must be of type ?int, array given, called in /var/www/html/appGes/app/Controllers/AcheterController.php on line 101
+[Method: POST, Route: produit/vente/1]
+in SYSTEMPATH/API/ResponseTrait.php on line 92.
+ 1 APPPATH/Controllers/AcheterController.php(101): App\Controllers\AcheterController->respond()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->vente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 06:29:32 --> TypeError: App\Controllers\AcheterController::respond(): Argument #2 ($status) must be of type ?int, array given, called in /var/www/html/appGes/app/Controllers/AcheterController.php on line 98
+[Method: POST, Route: produit/vente/1]
+in SYSTEMPATH/API/ResponseTrait.php on line 92.
+ 1 APPPATH/Controllers/AcheterController.php(98): App\Controllers\AcheterController->respond()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->vente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 06:33:50 --> ErrorException: Array to string conversion
+[Method: POST, Route: produit/vente/1]
+in APPPATH/Controllers/AcheterController.php on line 90.
+ 1 APPPATH/Controllers/AcheterController.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->vente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 09:39:47 --> ParseError: syntax error, unexpected integer "0", expecting variable
+[Method: GET, Route: produit/historique_all]
+in APPPATH/Controllers/AcheterController.php on line 105.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 09:39:47 --> ParseError: syntax error, unexpected integer "0", expecting variable
+[Method: GET, Route: produit/getAllNumFact]
+in APPPATH/Controllers/AcheterController.php on line 105.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 10:02:56 --> ArgumentCountError: Too few arguments to function App\Controllers\AcheterController::getAllHistorique(), 0 passed in /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: produit/historique_all]
+in APPPATH/Controllers/AcheterController.php on line 106.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getAllHistorique()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 10:03:16 --> ArgumentCountError: Too few arguments to function App\Controllers\AcheterController::getAllHistorique(), 0 passed in /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: produit/historique_all]
+in APPPATH/Controllers/AcheterController.php on line 106.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getAllHistorique()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 10:13:48 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: produit/historique_vente/0]
+in APPPATH/Controllers/AcheterController.php on line 128.
+ 1 APPPATH/Controllers/AcheterController.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 10:17:41 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: produit/historique_vente/0]
+in APPPATH/Controllers/AcheterController.php on line 129.
+ 1 APPPATH/Controllers/AcheterController.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+ERROR - 2024-10-02 11:31:09 --> SQLite3Exception: no such column: numAchat in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/appGes/vendor/codeigniter4/framework/system/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(865): CodeIgniter\BaseModel->update()
+#7 /var/www/html/appGes/app/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-10-02 11:31:09 --> CodeIgniter\Database\Exceptions\DatabaseException: no such column: numAchat
+[Method: GET, Route: produit/annuler/fact-0015]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 5 APPPATH/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 11:31:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: no such column: numAchat
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 7 APPPATH/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 11:31:09 --> [Caused by] SQLite3Exception: no such column: numAchat
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 8 APPPATH/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+ERROR - 2024-10-02 11:31:24 --> SQLite3Exception: no such column: numAchat in /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:152
+Stack trace:
+#0 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(152): SQLite3->exec()
+#1 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/appGes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/appGes/vendor/codeigniter4/framework/system/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+#6 /var/www/html/appGes/vendor/codeigniter4/framework/system/Model.php(865): CodeIgniter\BaseModel->update()
+#7 /var/www/html/appGes/app/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+#8 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+#9 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/appGes/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/appGes/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /var/www/html/appGes/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /var/www/html/appGes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-10-02 11:31:24 --> CodeIgniter\Database\Exceptions\DatabaseException: no such column: numAchat
+[Method: GET, Route: produit/annuler/fact-0015]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 5 APPPATH/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 11:31:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: no such column: numAchat
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 7 APPPATH/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 11:31:24 --> [Caused by] SQLite3Exception: no such column: numAchat
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 152.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(152): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update()
+ 8 APPPATH/Controllers/AcheterController.php(189): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->annulerFcature()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 13:05:01 --> ErrorException: Undefined variable $numAcheter
+[Method: GET, Route: produit/historique_vente/0]
+in APPPATH/Models/AcheterModel.php on line 98.
+ 1 APPPATH/Models/AcheterModel.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/AcheterController.php(120): App\Models\AcheterModel->getAllVente()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 13:05:18 --> ErrorException: Undefined variable $numAcheter
+[Method: GET, Route: produit/historique_vente/0]
+in APPPATH/Models/AcheterModel.php on line 98.
+ 1 APPPATH/Models/AcheterModel.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/AcheterController.php(120): App\Models\AcheterModel->getAllVente()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 13:38:31 --> ErrorException: Undefined array key "montant"
+[Method: GET, Route: produit/historique_vente/fact-0017]
+in APPPATH/Controllers/AcheterController.php on line 141.
+ 1 APPPATH/Controllers/AcheterController.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 13:38:49 --> ErrorException: Undefined array key "montant"
+[Method: GET, Route: produit/historique_vente/fact-0017]
+in APPPATH/Controllers/AcheterController.php on line 141.
+ 1 APPPATH/Controllers/AcheterController.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 13:40:18 --> ErrorException: Undefined array key "montant"
+[Method: GET, Route: produit/historique_vente/fact-0010]
+in APPPATH/Controllers/AcheterController.php on line 141.
+ 1 APPPATH/Controllers/AcheterController.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')
+CRITICAL - 2024-10-02 13:40:57 --> ErrorException: Undefined array key "montant"
+[Method: GET, Route: produit/historique_vente/fact-0017]
+in APPPATH/Controllers/AcheterController.php on line 141.
+ 1 APPPATH/Controllers/AcheterController.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AcheterController->getHistoriqueVente()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/appGes/public/index.php')

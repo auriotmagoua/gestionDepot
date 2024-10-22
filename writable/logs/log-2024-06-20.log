@@ -1,0 +1,684 @@
+INFO - 2024-06-20 00:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 00:12:20 --> Error: Call to a member function getName() on null
+[Method: POST, Route: stagiaire/Save]
+in APPPATH\Controllers\UserController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 00:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 00:13:55 --> Error: Call to a member function getName() on null
+[Method: POST, Route: stagiaire/Save]
+in APPPATH\Controllers\UserController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:17:03 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: stagiaire/Save]
+in APPPATH\Controllers\UserController.php on line 145.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\vendor\\composer/../../app/Controllers/UserController.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\UserController')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\UserController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 00:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 00:17:26 --> ErrorException: Undefined variable $new_logo_name
+[Method: POST, Route: stagiaire/Save]
+in APPPATH\Controllers\UserController.php on line 111.
+ 1 APPPATH\Controllers\UserController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_logo_name', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\UserController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 00:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 00:17:58 --> Exception: NOT NULL constraint failed: user.login in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `us...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\UserController.php(117): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-20 00:17:58 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.login
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(117): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:17:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.login
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'12/12/1999\', \'2024-06-20 00:06:58\', \'2024-06-20 00:06:58\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'12/12/1999\', \'2024-06-20 00:06:58\', \'2024-06-20 00:06:58\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(117): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:17:58 --> [Caused by] Exception: NOT NULL constraint failed: user.login
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'12/12/1999\', \'2024-06-20 00:06:58\', \'2024-06-20 00:06:58\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'12/12/1999\', \'2024-06-20 00:06:58\', \'2024-06-20 00:06:58\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'12/12/1999\', \'2024-06-20 00:06:58\', \'2024-06-20 00:06:58\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(117): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 00:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 00:23:38 --> Exception: NOT NULL constraint failed: user.login in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `us...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\UserController.php(123): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-20 00:23:38 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.login
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:23:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.login
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', NULL, NULL, \'12/12/1999\', \'2024-06-20 00:06:38\', \'2024-06-20 00:06:38\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', NULL, NULL, \'12/12/1999\', \'2024-06-20 00:06:38\', \'2024-06-20 00:06:38\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:23:38 --> [Caused by] Exception: NOT NULL constraint failed: user.login
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', NULL, NULL, \'12/12/1999\', \'2024-06-20 00:06:38\', \'2024-06-20 00:06:38\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', NULL, NULL, \'12/12/1999\', \'2024-06-20 00:06:38\', \'2024-06-20 00:06:38\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', NULL, NULL, \'12/12/1999\', \'2024-06-20 00:06:38\', \'2024-06-20 00:06:38\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 00:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 00:24:01 --> Exception: NOT NULL constraint failed: user.password in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `us...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\UserController.php(123): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-20 00:24:01 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.password
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:24:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', NULL, \'12/12/1999\', \'2024-06-20 00:06:01\', \'2024-06-20 00:06:01\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', NULL, \'12/12/1999\', \'2024-06-20 00:06:01\', \'2024-06-20 00:06:01\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:24:01 --> [Caused by] Exception: NOT NULL constraint failed: user.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', NULL, \'12/12/1999\', \'2024-06-20 00:06:01\', \'2024-06-20 00:06:01\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', NULL, \'12/12/1999\', \'2024-06-20 00:06:01\', \'2024-06-20 00:06:01\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', NULL, \'12/12/1999\', \'2024-06-20 00:06:01\', \'2024-06-20 00:06:01\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 00:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 00:24:17 --> Exception: NOT NULL constraint failed: user.email in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `us...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\UserController.php(123): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-20 00:24:17 --> CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.email
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:24:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: NOT NULL constraint failed: user.email
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', \'vbnmmnbvc\', \'12/12/1999\', \'2024-06-20 00:06:17\', \'2024-06-20 00:06:17\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', \'vbnmmnbvc\', \'12/12/1999\', \'2024-06-20 00:06:17\', \'2024-06-20 00:06:17\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 00:24:17 --> [Caused by] Exception: NOT NULL constraint failed: user.email
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', \'vbnmmnbvc\', \'12/12/1999\', \'2024-06-20 00:06:17\', \'2024-06-20 00:06:17\', 1, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', \'vbnmmnbvc\', \'12/12/1999\', \'2024-06-20 00:06:17\', \'2024-06-20 00:06:17\', 1, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (\'xcvb321\', \'bnmghjk\', \'dfghjkjhgfgh\', \'676542389\', \'12/12/1999\', \'foumbot\', \'feminin\', \'1\', \'icab\', \'1\', \'vbnmnbvcvb\', \'12/12/1999\', \'cvbnmnb\', \'vbnmmnbvc\', \'12/12/1999\', \'2024-06-20 00:06:17\', \'2024-06-20 00:06:17\', 1, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`registration_number`, `name`, `surname`, `contact`, `date_of_birth`, `birth_place`, `sex`, `school_level`, `school_name`, `training_id`, `folder`, `start_date`, `login`, `password`, `end_date`, `created_at`, `updated_at`, `is_enable`, `is_delete`) VALUES (:registration_number:, :name:, :surname:, :contact:, :date_of_birth:, :birth_place:, :sex:, :school_level:, :school_name:, :training_id:, :folder:, :start_date:, :login:, :password:, :end_date:, :created_at:, :updated_at:, :is_enable:, :is_delete:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(123): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 07:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 10:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 12:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 14:26:54 --> Exception: table `request` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `r...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `r...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-141601_RequestMigration.php(58): CodeIgniter\Database\Forge->createTable('request')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\RequestMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-06-20 14:28:27 --> Exception: table `request` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `r...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `r...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-141601_RequestMigration.php(58): CodeIgniter\Database\Forge->createTable('request')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\RequestMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-06-20 14:28:57 --> Exception: database is locked in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('DROP TABLE `use...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('DROP TABLE `use...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `use...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `use...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-133442_UserMigration.php(95): CodeIgniter\Database\Forge->dropTable('user')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\UserMigration->down()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(87): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(86): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-06-20 14:28:57 --> Exception: table `request` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `r...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `r...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-141601_RequestMigration.php(58): CodeIgniter\Database\Forge->createTable('request')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\RequestMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-06-20 14:35:28 --> Exception: table `request` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `r...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `r...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-141601_RequestMigration.php(64): CodeIgniter\Database\Forge->createTable('request')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\RequestMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-06-20 14:36:25 --> Exception: table `request` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `r...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `r...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-141601_RequestMigration.php(64): CodeIgniter\Database\Forge->createTable('request')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\RequestMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-06-20 14:37:16 --> Exception: table `request` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `r...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `r...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-141601_RequestMigration.php(64): CodeIgniter\Database\Forge->createTable('request')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\RequestMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+INFO - 2024-06-20 14:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 14:44:15 --> ErrorException: Undefined array key "type"
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\AuthentificationController.php on line 105.
+ 1 APPPATH\Controllers\AuthentificationController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\AuthentificationController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 14:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 14:44:47 --> ErrorException: Undefined array key "type"
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\AuthentificationController.php on line 105.
+ 1 APPPATH\Controllers\AuthentificationController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\AuthentificationController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 14:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 14:46:19 --> ErrorException: Undefined array key "type"
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\AuthentificationController.php on line 105.
+ 1 APPPATH\Controllers\AuthentificationController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\AuthentificationController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+ERROR - 2024-06-20 15:01:40 --> Exception: table `request` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `r...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `r...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-141601_RequestMigration.php(64): CodeIgniter\Database\Forge->createTable('request')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\RequestMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+INFO - 2024-06-20 15:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 15:05:33 --> ErrorException: Undefined array key "type"
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\AuthentificationController.php on line 105.
+ 1 APPPATH\Controllers\AuthentificationController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\AuthentificationController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 15:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 15:08:26 --> ErrorException: Undefined array key "type_admin"
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\AuthentificationController.php on line 105.
+ 1 APPPATH\Controllers\AuthentificationController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type_admin"', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\AuthentificationController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+ERROR - 2024-06-20 15:15:09 --> Exception: table `payment` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `p...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `p...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-145913_PaymentMigration.php(48): CodeIgniter\Database\Forge->createTable('payment')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\PaymentMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-06-20 15:15:54 --> Exception: table `payment` already exists in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('CREATE TABLE `p...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('CREATE TABLE `p...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Database\Migrations\2024-06-20-145913_PaymentMigration.php(48): CodeIgniter\Database\Forge->createTable('payment')
+#5 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\PaymentMigration->up()
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\mes documents\new\diso-gestion\diso-gestion\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+INFO - 2024-06-20 15:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 15:19:20 --> ErrorException: Undefined array key "trainee_type"
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\AuthentificationController.php on line 106.
+ 1 APPPATH\Controllers\AuthentificationController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "trainee_type"', 'C:\\mes documents\\new\\diso-gestion\\diso-gestion\\app\\Controllers\\AuthentificationController.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 15:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 15:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 15:25:39 --> Exception: Unable to prepare statement: 1, no such column: training_type in C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:153
+Stack trace:
+#0 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT *\nFROM `...')
+#1 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *\nFROM `...')
+#2 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\mes documents\new\diso-gestion\diso-gestion\app\Models\TrainingModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\mes documents\new\diso-gestion\diso-gestion\app\Controllers\FormationController.php(135): App\Models\TrainingModel->getTraining('aesrdtyt')
+#6 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\FormationController->save()
+#7 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+#8 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\mes documents\new\diso-gestion\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\mes documents\new\diso-gestion\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#13 {main}
+CRITICAL - 2024-06-20 15:25:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: training_type
+[Method: POST, Route: formation/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `training`
+WHERE `training_type` = :training_type:
+AND `is_delete` = :is_delete:', [...], false)
+ 2 APPPATH\Models\TrainingModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\FormationController.php(135): App\Models\TrainingModel->getTraining('aesrdtyt')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 15:25:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: training_type
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `training`
+WHERE `training_type` = \'aesrdtyt\'
+AND `is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `training`
+WHERE `training_type` = \'aesrdtyt\'
+AND `is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `training`
+WHERE `training_type` = :training_type:
+AND `is_delete` = :is_delete:', [...], false)
+ 4 APPPATH\Models\TrainingModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\FormationController.php(135): App\Models\TrainingModel->getTraining('aesrdtyt')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-20 15:25:39 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: training_type
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 153.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT *
+FROM `training`
+WHERE `training_type` = \'aesrdtyt\'
+AND `is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `training`
+WHERE `training_type` = \'aesrdtyt\'
+AND `is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `training`
+WHERE `training_type` = \'aesrdtyt\'
+AND `is_delete` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `training`
+WHERE `training_type` = :training_type:
+AND `is_delete` = :is_delete:', [...], false)
+ 5 APPPATH\Models\TrainingModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\FormationController.php(135): App\Models\TrainingModel->getTraining('aesrdtyt')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormationController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormationController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\new\\diso-gestion\\diso-gestion\\public\\index.php')
+INFO - 2024-06-20 15:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 17:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 19:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

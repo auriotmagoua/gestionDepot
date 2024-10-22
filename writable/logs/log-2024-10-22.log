@@ -1,0 +1,261 @@
+WARNING - 2024-10-22 09:00:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 09:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-22 10:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-22 10:30:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-22 10:30:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-22 10:31:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-22 10:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-22 10:33:10 --> SQLite3Exception: Unable to prepare statement: no such column: NombreBouteile in /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/gestionDepot/app/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/auriot/Documents/gestionDepot/app/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+#6 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+#7 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/auriot/Documents/gestionDepot/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-10-22 10:33:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: NombreBouteile
+[Method: POST, Route: entree/Save_entree]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+CRITICAL - 2024-10-22 10:33:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: NombreBouteile
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+CRITICAL - 2024-10-22 10:33:10 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: NombreBouteile
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+WARNING - 2024-10-22 10:33:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-22 10:33:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-22 10:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-22 10:33:59 --> SQLite3Exception: Unable to prepare statement: no such column: NombreBouteile in /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/gestionDepot/app/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/auriot/Documents/gestionDepot/app/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+#6 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+#7 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/auriot/Documents/gestionDepot/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-10-22 10:33:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: NombreBouteile
+[Method: POST, Route: entree/Save_entree]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+CRITICAL - 2024-10-22 10:33:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: NombreBouteile
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+CRITICAL - 2024-10-22 10:33:59 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: NombreBouteile
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-22 10:34:24 --> SQLite3Exception: Unable to prepare statement: no such column: nombreBouteile in /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/auriot/Documents/gestionDepot/app/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/auriot/Documents/gestionDepot/app/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+#6 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+#7 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/auriot/Documents/gestionDepot/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/auriot/Documents/gestionDepot/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-10-22 10:34:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: nombreBouteile
+[Method: POST, Route: entree/Save_entree]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+CRITICAL - 2024-10-22 10:34:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: nombreBouteile
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+CRITICAL - 2024-10-22 10:34:24 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: nombreBouteile
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/EntreeModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/EntreeController.php(41): App\Models\EntreeModel->getNombreBoutProdById()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EntreeController->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 10:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-22 10:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-22 10:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-22 13:22:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 13:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-22 13:22:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuthentificationController::$UserModel is deprecated in APPPATH/Controllers/AuthentificationController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AuthentificationController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/auriot/Documents/gestionDepot/public/index.php')
+INFO - 2024-10-22 13:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

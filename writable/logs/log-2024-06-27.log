@@ -1,0 +1,250 @@
+CRITICAL - 2024-06-27 04:03:17 --> ErrorException: Undefined variable $id_training
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 APPPATH\Controllers\PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_training', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:10:03 --> ErrorException: Undefined variable $id_training
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 APPPATH\Controllers\PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_training', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:11:29 --> ErrorException: Undefined variable $id_training
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 APPPATH\Controllers\PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_training', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:15:15 --> ErrorException: Undefined variable $id_training
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 APPPATH\Controllers\PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_training', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:20:24 --> ErrorException: Undefined variable $name
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 APPPATH\Controllers\PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-27 04:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 04:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 04:21:51 --> ErrorException: Undefined variable $id_training
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 APPPATH\Controllers\PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_training', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:31:37 --> ErrorException: Undefined variable $TrainingModel
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 37.
+ 1 APPPATH\Controllers\PayementController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TrainingModel', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:32:46 --> ArgumentCountError: Too few arguments to function App\Models\TrainingModel::getTrainingById(), 0 passed in C:\mes documents\diso-gestion\app\Controllers\PayementController.php on line 38 and exactly 1 expected
+[Method: POST, Route: payement/Save]
+in APPPATH\Models\TrainingModel.php on line 78.
+ 1 APPPATH\Controllers\PayementController.php(38): App\Models\TrainingModel->getTrainingById()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:37:43 --> Error: Undefined constant "App\Controllers\id_training"
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:39:53 --> Error: Undefined constant "App\Controllers\id_training"
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:43:06 --> ErrorException: Undefined variable $training
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 38.
+ 1 APPPATH\Controllers\PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $training', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-27 04:47:30 --> ErrorException: Undefined variable $id_user
+[Method: POST, Route: payement/Save]
+in APPPATH\Controllers\PayementController.php on line 40.
+ 1 APPPATH\Controllers\PayementController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_user', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\PayementController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayementController->saveFrais()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-27 05:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 05:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 05:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 05:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 05:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 05:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 05:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 09:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 09:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 09:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 09:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 09:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 09:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 09:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 10:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 10:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 10:59:16 --> ErrorException: Undefined variable $matricule
+[Method: POST, Route: stagiaire/Save]
+in APPPATH\Controllers\UserController.php on line 124.
+ 1 APPPATH\Controllers\UserController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $matricule', 'C:\\mes documents\\diso-gestion\\app\\Controllers\\UserController.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-27 11:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 11:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 11:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 14:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-27 15:15:55 --> Exception: Unable to prepare statement: 1, no such table: user in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/angel/Vidéos/diso-gestion/app/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+#7 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+#8 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/angel/Vidéos/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#14 {main}
+CRITICAL - 2024-06-27 15:15:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+[Method: POST, Route: user/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-06-27 15:15:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-06-27 15:15:55 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: user
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthentificationController.php(59): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthentificationController->authentification()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+INFO - 2024-06-27 15:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 15:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 16:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 16:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 16:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 16:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 16:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 16:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 17:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

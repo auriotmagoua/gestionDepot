@@ -1,0 +1,344 @@
+INFO - 2024-07-05 07:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 09:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 09:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 13:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-05 13:38:37 --> Exception: Unable to prepare statement: 1, no such column: training.description in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/app/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/app/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+#6 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+#7 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/angel/Vidéos/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-07-05 13:38:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: training.description
+[Method: GET, Route: formation/AllUserTraining/9]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 13:38:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: training.description
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 13:38:37 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: training.description
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+ERROR - 2024-07-05 13:38:40 --> Exception: Unable to prepare statement: 1, no such column: training.description in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/app/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/app/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+#6 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+#7 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/angel/Vidéos/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-07-05 13:38:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: training.description
+[Method: GET, Route: formation/AllUserTraining/11]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 13:38:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: training.description
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 13:38:40 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: training.description
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserTrainingModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FormationController.php(211): App\Models\UserTrainingModel->getAllUserTraining()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FormationController->getAllUserTraining()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+ERROR - 2024-07-05 14:16:03 --> Exception: Unable to prepare statement: 1, near "FROM": syntax error in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/app/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/app/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+#6 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+#7 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/angel/Vidéos/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-07-05 14:16:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, near "FROM": syntax error
+[Method: GET, Route: payement/Historique_Payement]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:16:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, near "FROM": syntax error
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:16:03 --> [Caused by] Exception: Unable to prepare statement: 1, near "FROM": syntax error
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+ERROR - 2024-07-05 14:18:58 --> Exception: Unable to prepare statement: 1, no such column: py.payement_id in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/app/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/app/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+#6 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+#7 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/angel/Vidéos/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-07-05 14:18:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: py.payement_id
+[Method: GET, Route: payement/Historique_Payement]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:18:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: py.payement_id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:18:58 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: py.payement_id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+ERROR - 2024-07-05 14:19:28 --> Exception: Unable to prepare statement: 1, no such column: py.payement_amount in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:153
+Stack trace:
+#0 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(153): SQLite3->query()
+#1 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+#2 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+#4 /home/angel/Vidéos/diso-gestion/app/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/angel/Vidéos/diso-gestion/app/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+#6 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+#7 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/angel/Vidéos/diso-gestion/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(49): require_once('...')
+#13 {main}
+CRITICAL - 2024-07-05 14:19:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: py.payement_amount
+[Method: GET, Route: payement/Historique_Payement]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:19:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: py.payement_amount
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 158.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:19:28 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: py.payement_amount
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 153.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(153): SQLite3->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/PaymentModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/PayementController.php(21): App\Models\PaymentModel->getAllPayement()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:19:43 --> ErrorException: Undefined variable $response
+[Method: GET, Route: payement/Historique_Payement]
+in APPPATH/Controllers/PayementController.php on line 25.
+ 1 APPPATH/Controllers/PayementController.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:44:30 --> ErrorException: Undefined array key "training_name"
+[Method: GET, Route: payement/Historique_Payement]
+in APPPATH/Controllers/PayementController.php on line 38.
+ 1 APPPATH/Controllers/PayementController.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:53:25 --> ArgumentCountError: Too few arguments to function App\Controllers\PayementController::historique_Payement(), 0 passed in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: payement/Historique_Payement]
+in APPPATH/Controllers/PayementController.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')
+CRITICAL - 2024-07-05 14:54:25 --> ArgumentCountError: Too few arguments to function App\Controllers\PayementController::historique_Payement(), 0 passed in /home/angel/Vidéos/diso-gestion/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: payement/Historique_Payement]
+in APPPATH/Controllers/PayementController.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PayementController->historique_Payement()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/angel/Vidéos/diso-gestion/public/index.php')

@@ -1,0 +1,662 @@
+INFO - 2024-06-25 04:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-25 05:00:43 --> Exception: Unable to prepare statement: 1, no such table: expenses in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:153
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT *\nFROM `...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *\nFROM `...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\mes documents\diso-gestion\app\Models\ExpensesModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\mes documents\diso-gestion\app\Controllers\DepenseController.php(104): App\Models\ExpensesModel->getAllExpenses()
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\DepenseController->list()
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepenseController))
+#8 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#13 {main}
+CRITICAL - 2024-06-25 05:00:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: expenses
+[Method: GET, Route: depense/List]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `expenses`
+WHERE `is_delete` = :is_delete:', [...], false)
+ 2 APPPATH\Models\ExpensesModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\DepenseController.php(104): App\Models\ExpensesModel->getAllExpenses()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepenseController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepenseController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 05:00:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: expenses
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `expenses`
+WHERE `is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `expenses`
+WHERE `is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `expenses`
+WHERE `is_delete` = :is_delete:', [...], false)
+ 4 APPPATH\Models\ExpensesModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\DepenseController.php(104): App\Models\ExpensesModel->getAllExpenses()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepenseController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepenseController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 05:00:43 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: expenses
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 153.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT *
+FROM `expenses`
+WHERE `is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `expenses`
+WHERE `is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `expenses`
+WHERE `is_delete` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `expenses`
+WHERE `is_delete` = :is_delete:', [...], false)
+ 5 APPPATH\Models\ExpensesModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DepenseController.php(104): App\Models\ExpensesModel->getAllExpenses()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepenseController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepenseController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-25 20:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-25 20:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-25 20:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-25 20:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-25 21:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-25 21:38:04 --> Exception: no such table: usertraining in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `us...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\diso-gestion\app\Controllers\UserController.php(143): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-25 21:38:04 --> CodeIgniter\Database\Exceptions\DatabaseException: no such table: usertraining
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 21:38:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: no such table: usertraining
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (9, \'1\', \'2024-06-25 21:38:04\', \'2024-06-25 21:38:04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (9, \'1\', \'2024-06-25 21:38:04\', \'2024-06-25 21:38:04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 21:38:04 --> [Caused by] Exception: no such table: usertraining
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (9, \'1\', \'2024-06-25 21:38:04\', \'2024-06-25 21:38:04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (9, \'1\', \'2024-06-25 21:38:04\', \'2024-06-25 21:38:04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (9, \'1\', \'2024-06-25 21:38:04\', \'2024-06-25 21:38:04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usertraining` (`user_id`, `training_id`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-25 21:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-25 21:43:39 --> Exception: no such table: usertraining in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `us...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\diso-gestion\app\Controllers\UserController.php(143): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-25 21:43:39 --> CodeIgniter\Database\Exceptions\DatabaseException: no such table: usertraining
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :start_date:, :end_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 21:43:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: no such table: usertraining
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (10, \'1\', \'2024-06-09\', \'2024-07-07\', \'2024-06-25 21:43:39\', \'2024-06-25 21:43:39\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (10, \'1\', \'2024-06-09\', \'2024-07-07\', \'2024-06-25 21:43:39\', \'2024-06-25 21:43:39\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :start_date:, :end_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 21:43:39 --> [Caused by] Exception: no such table: usertraining
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (10, \'1\', \'2024-06-09\', \'2024-07-07\', \'2024-06-25 21:43:39\', \'2024-06-25 21:43:39\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (10, \'1\', \'2024-06-09\', \'2024-07-07\', \'2024-06-25 21:43:39\', \'2024-06-25 21:43:39\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (10, \'1\', \'2024-06-09\', \'2024-07-07\', \'2024-06-25 21:43:39\', \'2024-06-25 21:43:39\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usertraining` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :start_date:, :end_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-25 22:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-25 22:00:41 --> Exception: table user_training has no column named user_id in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:152
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `us...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\mes documents\diso-gestion\app\Controllers\UserController.php(143): CodeIgniter\BaseModel->save(Array)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->save()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#16 {main}
+CRITICAL - 2024-06-25 22:00:41 --> CodeIgniter\Database\Exceptions\DatabaseException: table user_training has no column named user_id
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :start_date:, :end_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 22:00:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: table user_training has no column named user_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (11, \'1\', \'2024-06-08\', \'2024-07-07\', \'2024-06-25 22:00:41\', \'2024-06-25 22:00:41\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (11, \'1\', \'2024-06-08\', \'2024-07-07\', \'2024-06-25 22:00:41\', \'2024-06-25 22:00:41\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :start_date:, :end_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 22:00:41 --> [Caused by] Exception: table user_training has no column named user_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 152.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(152): SQLite3->exec('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (11, \'1\', \'2024-06-08\', \'2024-07-07\', \'2024-06-25 22:00:41\', \'2024-06-25 22:00:41\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (11, \'1\', \'2024-06-08\', \'2024-07-07\', \'2024-06-25 22:00:41\', \'2024-06-25 22:00:41\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (11, \'1\', \'2024-06-08\', \'2024-07-07\', \'2024-06-25 22:00:41\', \'2024-06-25 22:00:41\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_training` (`user_id`, `training_id`, `start_date`, `end_date`, `created_at`, `updated_at`) VALUES (:user_id:, :training_id:, :start_date:, :end_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(143): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-25 22:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-25 22:29:37 --> Exception: Unable to prepare statement: 1, no such column: u.training_id in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:153
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`use...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`use...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`use...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`use...', Array, false)
+#4 C:\mes documents\diso-gestion\app\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\mes documents\diso-gestion\app\Controllers\UserController.php(235): App\Models\UserModel->getAllStagiaireByTraining()
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->list()
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#13 {main}
+CRITICAL - 2024-06-25 22:29:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: u.training_id
+[Method: GET, Route: stagiaire/List]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 2 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(235): App\Models\UserModel->getAllStagiaireByTraining()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 22:29:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: u.training_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 4 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(235): App\Models\UserModel->getAllStagiaireByTraining()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 22:29:37 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: u.training_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 153.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 5 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(235): App\Models\UserModel->getAllStagiaireByTraining()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-25 22:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-25 22:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-25 22:53:38 --> CodeIgniter\Validation\Exceptions\ValidationException: "montant" is not a valid rule.
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('montant')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('montant', 'montant', '10000', [...], [...], 'montant')
+ 3 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(38): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 22:55:20 --> CodeIgniter\Validation\Exceptions\ValidationException: "montant" is not a valid rule.
+[Method: POST, Route: stagiaire/Save]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('montant')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('montant', 'montant', '10000', [...], [...], 'montant')
+ 3 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(38): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+INFO - 2024-06-25 22:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-25 23:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-25 23:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-25 23:12:34 --> Exception: Unable to prepare statement: 1, no such column: u.training_id in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:153
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`use...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`use...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`use...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`use...', Array, false)
+#4 C:\mes documents\diso-gestion\app\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\mes documents\diso-gestion\app\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->list()
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#13 {main}
+CRITICAL - 2024-06-25 23:12:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: u.training_id
+[Method: GET, Route: stagiaire/List]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 2 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 23:12:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: u.training_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 4 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 23:12:34 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: u.training_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 153.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 5 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+ERROR - 2024-06-25 23:12:46 --> Exception: Unable to prepare statement: 1, no such column: u.training_id in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:153
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`use...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`use...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`use...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`use...', Array, false)
+#4 C:\mes documents\diso-gestion\app\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\mes documents\diso-gestion\app\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->list()
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#13 {main}
+CRITICAL - 2024-06-25 23:12:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: u.training_id
+[Method: GET, Route: stagiaire/List]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 2 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 23:12:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: u.training_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 4 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 23:12:46 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: u.training_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 153.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user` `u`
+JOIN `training` `t` ON `u`.`training_id` = `t`.`training_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 5 APPPATH\Models\UserModel.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+ERROR - 2024-06-25 23:47:47 --> Exception: Unable to prepare statement: 1, no such column: ut.user_id in C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:153
+Stack trace:
+#0 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`use...')
+#1 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`use...')
+#2 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`use...')
+#3 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`use...', Array, false)
+#4 C:\mes documents\diso-gestion\app\Models\UserModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\mes documents\diso-gestion\app\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+#6 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\UserController->list()
+#7 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\mes documents\diso-gestion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\mes documents\diso-gestion\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\mes document...')
+#13 {main}
+CRITICAL - 2024-06-25 23:47:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: ut.user_id
+[Method: GET, Route: stagiaire/List]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 2 APPPATH\Models\UserModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 23:47:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such column: ut.user_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 158.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 4 APPPATH\Models\UserModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')
+CRITICAL - 2024-06-25 23:47:47 --> [Caused by] Exception: Unable to prepare statement: 1, no such column: ut.user_id
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 153.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(153): SQLite3->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`user_id`, `u`.`name`, `u`.`surname`, `u`.`picture`, `u`.`matricule`, `u`.`sex`, `u`.`date_of_birth`, `u`.`birth_place`, `u`.`contact`, `t`.`training_name`
+FROM `user_training` `ut`
+JOIN `training` `t` ON `ut`.`training_id` = `t`.`training_id`
+JOIN `user` `u` ON `ut`.`user_id` = `u`.`user_id`
+WHERE `u`.`is_delete` = :u.is_delete:', [...], false)
+ 5 APPPATH\Models\UserModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(237): App\Models\UserModel->getAllStagiaireByTraining()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\mes documents\\diso-gestion\\public\\index.php')

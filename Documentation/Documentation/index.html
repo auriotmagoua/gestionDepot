@@ -1,0 +1,826 @@
+﻿        <!DOCTYPE html>
+        <html>
+        <head lang="en">
+        <meta charset="UTF-8">
+        <title>Diso-gestion - DOCUMENTATIONS</title>
+        <link rel="stylesheet" href="css/prism.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.easing.js"></script>
+        <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/prism.js"></script>
+        <script src="js/clipboard.min.js"></script>
+        <script src="js/perfectscroll.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/mm.js"></script>
+        <style>
+                h7 {
+                background: none repeat scroll 0 0 #d8d8d8;
+                border-radius: 8px;
+                color: #019cf5;
+                font-size: 10px;
+                font-style: italic;
+                font-weight: 700;
+                margin: 18px 0;
+                padding: 5px 15px;
+                }
+                a {
+                color: #019cf5;
+                }
+            </style>
+        </head>
+        <body>
+        <div class="wrapper-left">
+        <div class="logo">
+        <img src="logodiso.jpg" alt="logo" class="img-fluid" width="100" />
+        </div>
+        <div class="nav-wrapper">
+
+            <h3 style="margin-left: 30px;">PARTIE MOBILE</h3>
+        <nav>
+        <ul> 
+        <li><a href="#app-intro">Introduction</a></li>
+        <li>
+        <a href="#intro">Outils et configuration préalables</a>
+        <ul class="sub-menu">
+        <li><a href="#intro">Introduction a Flutter</a></li>
+        <li><a href="#tools">Outils et configuration</a></li>
+        <li><a href="#setup-window">Android Studio – Windows</a></li>
+        <li><a href="#setup-mac">Android Studio – macOS</a></li>
+        <li><a href="#setup-linux">Android Studio – Linux</a></li>
+        </ul>
+        </li>
+        <li><a href="#build-run">Mise en route (Build & Run) </a></li>
+        <li>
+        <a href="#config-android">Configuration</a>
+        <ul class="sub-menu">
+        <li><a href="#config-android">Configuration Android</a></li>
+        <li><a href="#config-ios">Configuration iOS</a></li>
+        <li><a href="#config-flutter"> Configuration Flutter</a></li>
+        </ul>
+        </li>
+        <li>
+        <a href="#error1">Erreurs courantes </a>
+        <ul class="sub-menu">
+        <li><a href="#error1">Aucun client correspondant trouvé pour le nom du package</a></li>
+        <li><a href="#error2">SDK Flutter non disponible </a></li>
+        <li><a href="#error4">En-tête d'autorisation introuvable</a></li>
+        <li><a href="#error5">Jeton expiré</a></li>
+        <li><a href="#error6">Version gradlée 7 non prise en charge.*.*</a></li>
+        </ul>
+        </li>
+        <li><a href="#mm-support">Support d'aide</a></li>
+        <li>
+        <a href="#mm-changelog">Journal des modifications</a>
+        <ul class="sub-menu">
+        <li><a href="#changelog-GoBank">Diso-gestion</a></li>
+        </ul>
+        </li>
+
+        </ul>
+
+            <h3 style="margin-left: 30px;">PARTIE WEB</h3>
+            <ul>
+                
+                <li>
+                    <a href="#introweb">Outils et configuration préalables</a>
+                    <ul class="sub-menu">
+                        
+                        <li><a href="#toolsweb">Outils et configuration</a></li>
+                        <li><a href="#setup-windowweb">Visual Studio – Windows</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                <li><a href="#build-runweb">Mise en route (Build & Run) </a></li>
+                
+                <li>
+                    <a href="#errorweb">Erreurs courantes </a>
+                  
+                <li><a href="#mm-support">Support d'aide</a></li>
+                <li>
+                    
+                        <li><a href="#changelog-GoBank">Diso-gestion</a></li>
+                    </ul>
+                </li>      
+            </ul>
+            
+            <li><a href="#thank-you">merci</a></li>
+
+        </nav>
+        </div>
+        <footer>
+        Copyright &copy;<a target="_blank" href="https://zozostudio.tech/"> ZozoStudio</a> 2023
+        </footer>
+        </div>
+        <div class="wrapper-right">
+        <section id="app-intro">
+        <h3><b>Introduction à la Diso-gestion</b></h3>
+        <hr>
+        Le produit "Diso-gestion de l'entreprise smart diso" est une application web conçue pour faciliter la gestion des activités au sein de l'entreprise. Ses principales fonctionnalités sont :
+            <ol>
+                <li>Gestion des présences du personnel : </li>
+                <p>Utilisation d'un système de pointage par QR code pour enregistrer les arrivées et départs du personnel.
+                    Génération de rapports de présence.</p>
+
+                <li>  Gestion des demandes de permissions :</li>
+                <p> Permet aux employés de soumettre des demandes de permissions (congés, absences, etc.).
+                    Système d'approbation des demandes par les responsables.
+                    Historique des demandes de permissions.</p>
+
+                <li> Gestion des stagiaires :</li>
+                <p> Permet d'enregistrer et de suivre les informations des stagiaires.
+                    Génération d'attestations de stage pour les stagiaires</p>
+            </ol>
+        
+
+
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <img src="disogestion.PNG" alt="interface web" style="width: 300px; height: auto; margin-right: 50px; margin-bottom: 20px;">
+            <img src="mobile.jpg" alt="Image 2" style="width: 300px; height: auto; margin-bottom: 20px;">
+        </div>
+        <h5>Prérequis android</h5>
+        <div class="version">
+        <p><b>Android Studio: <span style="color: #FF0000;">Flamingo 2022.2.1</span></b></p>
+        <p><b>Flutter: <span style="color: #FF0000;">3.16.0</span></b> </p>
+        <p><b>Dart version: <span style="color: #FF0000;">3.2.0</span></b> 
+        </div>
+        <br>
+        <!-- //prerequis web -->
+        <h5>Prérequis web</h5>
+        <div class="version"> <p><b>CodeIgniter  <span style="color: #FF0000;">5.4</span></b></b></p>
+            <p><b>Bootstrap  <span style="color: #FF0000;">5.0</span></b></p>
+            <p><b>AJAX and jQuery</b>
+            </p> <p><b>Composer</b></p>
+            <p><b>SQLite</b></p> </div>
+
+        </section>
+
+        <section id="intro">
+        <h3><b>Introduction à Flutter</b></h3>
+        <hr>
+        <p>Flutter est la boîte à outils d'interface utilisateur de Google permettant de créer de superbes applications compilées nativement.
+            demandes de<a href="https://flutter.dev/docs">mobile</a>, <a href="https://flutter.dev/web">web</a>, et <a href="https://flutter.dev/desktop">desktop</a> de
+            base de code unique. C'est
+            très
+            facile à apprendre et actuellement il devient de plus en plus populaire. Avec ce blog
+            post, vous apprendrez quelques éléments de base sur Flutter et après l'avoir lu, vous
+            sera capable de créer une application simple en utilisant cette technologie.</p>
+        <p><a href="https://flutter.dev/">Cliquez ici</a>pour consulter plus de détails sur
+            battement.
+        </p>
+        </section>
+
+        <!-- introweb -->
+        <section id="introweb">
+            <h3><b>Présentation du projet</b></h3>
+            <hr>
+            <p>Ce projet est une application web développée en utilisant le framework PHP CodeIgniter dans sa version 5.4. L'objectif principal est de créer une interface conviviale et responsive, en exploitant les fonctionnalités offertes par le framework. de
+                base de code unique. C'est
+                très
+                facile à apprendre et actuellement il devient de plus en plus populaire. Avec ce blog
+                post, vous apprendrez quelques éléments de base sur Visual code et après l'avoir lu, vous
+                sera capable de créer une application simple en utilisant ce logiciel.</p>
+        
+            </section>
+
+        <section id="tools">
+        <h3><b>Outils et configuration</b></h3>
+        <hr>
+        <p><strong>Prérequis</strong></p>
+        <div>
+        <ul>
+        <li>Flutter &amp; Dart <a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noreferrer noopener">SDK</a></li>
+        <li>Anyone IDE <a href="https://developer.android.com/studio" target="_blank" rel="noreferrer noopener">Android Studio</a>
+        (Recommended), <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer noopener">Visual Studio Code</a> or <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noreferrer noopener">IntelliJ
+        IDEA</a>
+        </li>
+        </ul>
+        </div>
+        <ul>
+        <li>Pour modifier ce projet, vous devez avoir installé et configuré Flutter et Dart
+            avec succès sur votre ordinateur.
+        </li>
+        <li>Configurez votre éditeur - Installez le<a href="https://flutter.dev/docs/get-started/editor?tab=androidstudio">
+            Plugins Flutter et Dart</a>.
+        </li>
+        <li>
+            Si le SDK Android est installé et configuré, pour installer Flutter, vous
+            avez juste besoin de:
+        <ul>
+        <li>Téléchargez le SDK Flutter depuis le site officiel et extrayez-le.</li>
+        <li>Ajoutez le chemin du SDK précédemment extrait à votre variable PATH</li>
+        <li>Exécutez l'outil Flutter Doctor pour vérifier si tout est configuré
+            correctement.
+        </li>
+        <li>Toutes les étapes ci-dessus sont mentionnées ici : <a href="https://flutter.dev/docs/get-started/install/">https://flutter.dev/docs/get-started/install/</a>
+        </li>
+        </ul>
+        </li>
+        </ul>
+        </section>
+
+        <!-- tools web -->
+
+        <section id="toolsweb">
+            <h3><b>Outils de développement</b></h3>
+            <hr>
+            <p> <h5>IDE :</h5>  <span>Utilisez un IDE puissant comme PhpStorm, Visual Studio Code ou Sublime Text pour bénéficier d'une expérience de codage optimale avec CodeIgniter.</span>
+                <h5>Git :</h5>  <span>Utilisez un système de gestion de version comme Git pour le contrôle de version de votre code source.</span>
+                <h5>Composer:</h5> <span>Installez et gérez les dépendances de votre projet avec Composer, l'outil de gestion des paquets de PHP.</span>
+                <h5>SQLite Browser :</h5> <span>Utilisez un outil graphique comme DB Browser for SQLite pour visualiser et interagir avec la base de données SQLite.</span>
+            </p>
+            
+            </section>
+
+        <section id="setup-window">
+        <h3>Android Studio – Windows​</h3>
+        <hr>
+        <ul>
+        <li>Télécharger Android Studio - <a href="https://developer.android.com/studio/" target="_blank" rel="noopener">https://developer.android.com/studio/</a>
+        </li>
+        <li>Obtenez le SDK Flutter - <a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener">https://flutter.dev/docs/get-started/install</a></li>
+        <li>En savoir plus sur Android Studio - <a href="https://developer.android.com/studio/intro/" target="_blank" rel="noopener">https://developer.android.com/studio/intro/</a></li>
+        </ul>
+        <p><strong>En savoir plus sur Android Studio</strong></p>
+        <p>1 Téléchargez le bundle d'installation suivant pour obtenir la dernière version stable de
+            le SDK Flutter :
+        </p>
+        <p>2 Extrayez le fichier zip et placez le flutter contenu dans l'emplacement souhaité.
+            emplacement d'installation du SDK Flutter (par exemple, C:\src\flutter ; ne pas
+            installez Flutter dans un répertoire comme C:\Program Files\ qui nécessite une élévation de privilèges
+            ).
+        </p>
+        <p><strong>Étape 2 : Mettez à jour votre chemin</strong><br></p>
+        <p>Si vous souhaitez exécuter des commandes Flutter dans la console Windows standard, suivez ces
+            étapes pour ajouter Flutter à la variable d'environnement PATH :
+            Dans la barre de recherche Démarrer, saisissez « env » et sélectionnez <b> Modifier les variables d'environnement.
+            pour votre compte.</b>
+            Sous <b>la Variables utilisateur</b> vérifiez s'il y a une entrée appelée <b>Chemin:</b>
+        </p>
+        <ul>
+        <li>Si l'entrée existe, ajoutez le chemin complet à <b>flutter\bin </b>en utilisant ; comme un
+            séparateur des valeurs existantes.
+        </li>
+        <li>Si l'entrée n'existe pas, créez une nouvelle variable utilisateur nommée Path avec le
+            chemin complet vers <b>flutter\bin</b> comme sa valeur.
+        </li>
+        </ul>
+        <div class="info">
+        <ul>
+        <li>
+        <i class="fa fa-info-circle infoText"></i><b class="infoText">Info</b>
+        </li>
+        <li>Notez que vous devez fermer et rouvrir toutes les fenêtres de la console existantes pour que
+            les changements entrent en vigueur.
+        </li>
+        </ul>
+        </div>
+        <b>Vous êtes maintenant prêt à exécuter des commandes Flutter dans la console Flutter !</b>
+        <p><strong>Étape 3 : Exécutez Flutter Doctor</strong><br></p>
+        <p>À partir d'une fenêtre de console contenant le répertoire Flutter dans le chemin (voir ci-dessus), exécutez
+            la commande suivante pour voir s'il existe des dépendances de plate-forme dont vous avez besoin
+            terminez la configuration :
+        </p>
+
+        <p>
+        <pre class="lang-cpp"><code>c:\src\flutter>flutter doctor</code></pre>
+        </p>
+        <b>Si vous rencontrez un problème lors de la configuration de l'environnement, veuillez vous connecter en ligne<a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener">Clicque
+        ici</a></b>
+        </section>
+
+        <!-- setup-windowweb -->
+        <section id="setup-windowweb">
+            <h3>  visual studio</h3>
+            <hr>
+            <ul>
+            <li>Télécharger visual studio - <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener">https://code.visualstudio.com/download</a>
+            </li>
+        <P>Cliquez sur le bouton "Télécharger" pour obtenir le fichier d'installation correspondant à votre système d'exploitation (Windows, macOS ou Linux).</P>
+            </section>
+
+        <section id="setup-mac">
+        <h3><b>Android Studio – macOS​</b>
+        </h3>
+        <hr>
+        <ul>
+        <li>Télécharger Android Studio - <a href="https://developer.android.com/studio/" target="_blank" rel="noopener">https://developer.android.com/studio/</a>
+        </li>
+        <li>Download Xcode - <a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12" target="_blank" rel="noopener">https://apps.apple.com/us/app/xcode/id497799835?mt=12</a>
+        </li>
+        <li>Obtenez le SDK Flutter - <a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener">https://flutter.dev/docs/get-started/install</a></li>
+        <li>En savoir plus sur Android Studio- <a href="https://developer.android.com/studio/intro/" target="_blank" rel="noopener">https://developer.android.com/studio/intro/</a></li>
+        </ul>
+        <br>
+        <p><strong>Étape 1 : Obtenez le SDK Flutter</strong></p>
+        <ul>
+        <li>Téléchargez le bundle d'installation suivant pour obtenir la dernière version stable
+            du SDK Flutter :
+        </li>
+        <li>Téléchargez le SDK et extrayez le fichier téléchargé, double-cliquez simplement dessus. et
+            copiez simplement le dossier extrait et collez-le à l'emplacement souhaité (par exemple
+            exemple, Documents\flutter).
+        </li>
+        </ul>
+        <br>
+        <p><strong>Étape 2 : Mettez à jour votre chemin</strong></p>
+        <div class="warning">
+        <ul>
+        <li>
+        <i class="fa fa-bullhorn warningText"></i><b class="warningText">Warning</b>
+        </li>
+        <li>La variable Path doit être mise à jour pour accéder à la commande « flutter » depuis le terminal. toi
+            peut simplement mettre à jour la variable de chemin pour la fenêtre de terminal actuelle uniquement. et si tu veux
+            pour accéder aux commandes Flutter depuis n'importe où dans le terminal, nous devons mettre à jour le chemin du SDK
+            en permanence.
+        </li>
+        </ul>
+        </div>
+        <p> Pour mettre à jour la variable PATH, nous devons ouvrir le terminal.
+        </p>
+        <p>Pour mettre à jour la variable PATH pour la fenêtre de terminal actuelle uniquement, entrez cette commande
+        <b>"exporter PATH="$PATH:`pwd`/flutter/bin"" </b>et appuyez sur la touche Entrée.
+        </p>
+        <p>Pour mettre à jour la variable PATH de manière permanente, puis ouvrez ou créez<b>.bash_profile</b>
+            déposer. pour ouvrir ou créer ce fichier, puis entrez<b>"sudo open -e
+        $HOME/.bash_profile"</b>et appuyez sur la touche Entrée.
+        </p>
+        Ajoutez la ligne ci-dessous au fichier bash_profile au bas de tout autre contenu. <b>"exporter
+        PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin""</b> comme
+        [PATH_TO_FLUTTER_GIT_DIRECTORY] est le chemin réel du dossier SDK.
+        <p></p>
+        <p>Exécutez cette commande sur le terminal <b>"source $HOME/.bash_profile"</b>pour actualiser CHEMIN
+            variables.
+        </p>
+        <p>Vérifiez ensuite si notre SDK est installé avec succès ou non.
+        </p>
+        <p><b>Vous êtes maintenant prêt à exécuter des commandes Flutter dans la console Flutter !</b>
+        </p>
+        <p>
+            Exécutez <b>"flutter doctor"</b> dans le terminal. Si vous obtenez une liste de contrôle de
+            exigences du SDK Flutter, cela signifie que le SDK est installé avec succès sur votre
+            machine. et vous pouvez commencer à créer des applications Flutter sur votre machine.
+        </p>
+        <p><b>Si vous rencontrez un problème lors de la configuration de l'environnement dans Macos, veuillez vous connecter en ligne. <a href="https://flutter.dev/docs/get-started/install/macos" target="_blank" rel="noopener">Clicque
+        ici</a></b>
+        </p>
+        </section>
+
+
+        <section id="setup-linux">
+        <h3><b>Android Studio – Linux​​</b></h3>
+        <hr>
+        <ul>
+        <li>Télécharger Android Studio - <a href="https://developer.android.com/studio" target="_blank" rel="noopener">https://developer.android.com/studio</a>
+        </li>
+        <li>Obtenez le SDK Flutter - <a href="https://flutter.dev/docs/get-started/install/linux" target="_blank" rel="noopener">https://flutter.dev/docs/get-started/install/linux</a>
+        </li>
+        <li>En savoir plus sur Android Studio - <a href="https://developer.android.com/studio/intro/" target="_blank" rel="noopener">https://developer.android.com/studio/intro/</a></li>
+        </ul>
+        <p><strong>Étape 1 : Obtenez le SDK Flutter</strong></p>
+        <ul>
+        <li>Téléchargez le bundle d'installation suivant pour obtenir la dernière version stable
+            du SDK Flutter :
+        </li>
+        <li>Téléchargez le SDK et extrayez le fichier téléchargé, double-cliquez simplement dessus. et
+            copiez simplement le dossier extrait et collez-le à l'emplacement souhaité (par exemple
+            exemple, Documents\flutter).
+        </li>
+        </ul>
+        <p><strong>Étape 2 : Mettez à jour votre chemin</strong></p>
+        <div class="warning">
+        <ul>
+        <li>
+        <i class="fa fa-bullhorn warningText"></i><b class="warningText">Avertissement</b>
+        </li>
+        <li>La variable Path doit être mise à jour pour accéder à la commande « flutter » depuis le terminal. toi
+            peut simplement mettre à jour la variable de chemin pour la fenêtre de terminal actuelle uniquement. et si tu veux
+            pour accéder aux commandes Flutter depuis n'importe où dans le terminal, nous devons mettre à jour le chemin du SDK
+            en permanence.
+        </li>
+        </ul>
+        </div>
+        <p>Vous souhaiterez <code>probablement</code> mettre à jour cette variable de manière permanente, afin de pouvoir
+            exécutez des commandes Flutter dans n’importe quelle session de terminal. Pour mettre à jour la variable PATH, nous avons besoin
+            pour ouvrir le terminal.
+        </p>
+
+        <p>
+        <pre class="lang-cpp"><code>exporter PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"</code></pre>
+        </p>
+        <ol>
+        <li>executer <code class="language-plaintext highlighter-rouge"><p>Vous souhaiteriez <code>probablement</code> mettre à jour cette variable de manière permanente, afin de pouvoir
+            exécutez des commandes Flutter dans n’importe quelle session du terminal. Pour mettre à jour la variable PATH, nous avons besoin
+            pour ouvrir le terminal.
+        </li>
+        <li>Vérifiez que le <code class="langage-plaintext highlighter-rouge">flutter/bin</code>
+            Le répertoire est maintenant dans votre PATH en exécutant :
+        </li>
+        </ol>
+
+        <p>
+        <pre class="lang-cpp"><code>echo $PATH</code></pre>
+        </p>
+        <p>Vérifiez que le <code class="langage-plaintext highlighter-rouge">flutter</code>
+            La commande est disponible en exécutant :
+        </p>
+
+        <p>
+            <pre class="lang-cpp"><code>qui flotte</code></pre>
+        </p>
+        <b>Vous êtes maintenant prêt à exécuter des commandes Flutter dans la console Flutter !</b>
+        </section>
+
+        <section id="build-run">
+        <h2 class="sub-title">Mise en route (Build & Run)
+        </h2>
+        <p></p>
+        <p><strong>Important</strong></p>
+        <p>Toutes les étapes ci-dessous doivent être suivies pour créer et exécuter l'application.
+        </p>
+        <p><strong>Télécharger le projet
+        </strong>
+        </p>
+        <p>Téléchargez et recherchez le dossier de votre projet, utilisez votre IDE préféré
+        <strong>(Android Studio / Visual Studio Code / IntelliJ IDEA)</strong> à exécuter
+        le projet.
+        </p>
+        <img src="img/build_img1.png" alt="logo" width="100%">
+        <hr>
+        <p><strong>Obtenir les dépendances
+        </strong>
+        </p>
+        <p>Après avoir chargé le projet avec succès, exécutez la commande suivante dans le terminal
+        pour installer toutes les dépendances répertoriées dans le <a style="background-color: #ffffff;" href="https://dart.dev/tools/pub/pubspec"><code style="font-size: 14px;">pubspec.yaml</code></a>
+        fichier dans le dossier du projet
+        répertoire racine ou cliquez simplement sur <span style="font-weight: bold;">Pub get
+        </span>dans le fichier pubspec.yaml<span style="font-weight: bold;"> </span>si vous ne le faites pas
+        souhaitez utiliser la commande.
+        </p>
+        <pre class="lang-cpp"><code> flutter pub get </code></pre>
+        <p><strong>Important</strong></p>
+        <p>Toutes les étapes ci-dessous doivent être suivies pour créer et exécuter l'application</p>
+        <img src="img/build_img2.png" alt="logo" width="100%">
+        <p><strong>Créer et exécuter une application
+        </strong>
+        </p>
+        <div class="steps-panel">
+        <ol class="ordered-list">
+        <li>Localisez la barre d'outils principale d'Android Studio.</li>
+        <li>Dans le <span style="font-weight: bolder; color: #4a4a4a;">cible
+            sélecteur</span><span style="color: #4a4a4a;">,sélectionnez un 
+                appareil android pour exécuter l’application. Si aucun n’est répertorié comme disponible, sélectionnez
+        </span><span style="font-weight: bolder; color: #4a4a4a;">Tools >
+        Android > AVD Manager</span><span style="color: #4a4a4a;"> et
+            créez-en un là-bas. Pour plus de détails, voir </span><a style="color: #1389fd; background-color: #ffffff;" href="https://developer.android.com/studio/run/managing-avds">Managing
+        AVDs</a><span style="color: #4a4a4a;">.</span>
+        </li>
+        <li>Cliquez sur l'icône d'exécution dans la barre d'outils ou appelez l'élément de menu <span style="font-weight: bolder; color: #4a4a4a;">Run > Run. </span>
+        </li>
+        </ol>
+        </div>
+        <img src="img/build_img3.png" alt="logo" width="100%">
+        <p>Une fois la création de l'application terminée, vous verrez l'application sur votre appareil.</p>
+        <p>Si vous n'utilisez pas Android Studio ou IntelliJ, vous pouvez utiliser la ligne de commande pour exécuter
+            votre application en utilisant la commande suivante
+        </p>
+        <p><strong>Important</strong></p>
+        <p>L'étape ci-dessous nécessite que flutter path soit défini dans vos variables d'environnement. Voir
+        https://flutter.dev/docs/get-started/install/windows
+        </p>
+        <pre class="lang-cpp"><code>flutter run</code></pre>
+        <p>Vous verrez ci-dessous un écran similaire après avoir créé votre application avec succès
+        </p>
+        <img src="img/build_img4.png" alt="logo" width="100%">
+        <p><strong>Essayez le rechargement à chaud</strong></p>
+        <p>Flutter offre un cycle de développement rapide avec Stateful Hot Reload, la possibilité de
+            rechargez le code d'une application en cours d'exécution sans redémarrer ni perdre l'état de l'application.
+            Modifiez la source de l'application, indiquez à votre IDE ou à votre outil de ligne de commande que vous souhaitez
+            rechargez à chaud et voyez le changement dans votre simulateur, émulateur ou appareil.
+        </p>
+        <p><strong>Important</strong></p>
+        <p>N'arrêtez pas votre application. laissez votre application fonctionner.</p>
+        </section>
+
+        <!-- buidl and run web -->
+        <section id="build-runweb">
+            <h2 class="sub-title">Mise en route (Build & Run)</h2>
+            
+            <p><strong>Important</strong></p>
+            <h5 class="sub-title">Voici les étapes pour créer un nouveau projet avec Visual Studio Code :</h5>
+
+            <p> <h5>1. Ouvrir Visual Studio Code :</h5>  <span>Lancez Visual Studio Code sur votre ordinateur..</span>
+                <h5>2. Créer un nouveau dossier pour le projet</h5>  <span>Dans l'explorateur de fichiers de votre système d'exploitation, créez un nouveau dossier pour votre projet.
+                    Vous pouvez par exemple le nommer "mon-projet".</span>
+                <h5>3. Ouvrir le dossier dans Visual Studio Code</h5> <span>Dans Visual Studio Code, cliquez sur "Fichier" > "Ouvrir le dossier".
+                    Sélectionnez le dossier que vous venez de créer pour votre projet.</span>
+                <h5>4. Initialiser un dépôt Git (optionnel)</h5> <span>Si vous souhaitez utiliser le contrôle de version Git pour votre projet, ouvrez le terminal intégré de Visual Studio Code (Ctrl+Maj+`) et exécutez la commande suivante :
+                    Copier
+                    git init
+                    Cela créera un dépôt Git dans votre dossier de projet.</span>
+                    
+                    <h5>5.Créer un nouveau fichier</h5> <span>Dans l'explorateur de fichiers de Visual Studio Code, cliquez avec le bouton droit sur le dossier de votre projet et sélectionnez "Nouveau fichier".
+                        Donnez un nom à votre nouveau fichier, par exemple "index.html".</span>
+
+                    <h5>6.Écrire du code dans le nouveau fichier</h5>
+  
+            </p>
+        </section>
+
+        <section id="config-android">
+        <h2 id="cutomization" class="sub-title">Configuration et personnalisation
+        </h2>
+        <h3><b>Configuration Android</b></h3>
+        <div class="danger">
+        <ul>
+        <li>
+        <i class="fa fa-exclamation-triangle dangerText"></i><b class="dangerText">Important</b>
+        </li>
+        <li>N'ouvrez/ne modifiez pas le code Android dans Flutter, car Flutter ne compile pas les fichiers Android.
+        </li>
+        <li>If you want add/change android code, click on <br>
+        <b>Tools->Flutter->Open Module Android dans Android Studio </b>Ou<b> File->Open ->open android
+            module dans votre projet</b>
+        </li>
+        </ul>
+        </div>
+        <div class="danger">
+        <ul>
+        <li>
+        <i class="fa fa-exclamation-triangle dangerText"></i><b class="dangerText">Important</b>
+        </li>
+        <li>Ne changez pas le nom du package à l'intérieur <b>android/app/src/main/AndroidManifest.xml</b> file</li>
+        </ul>
+        </div>
+
+        <ul>
+        <li>Ouvrez Android Studio.</li>
+        <li>Sélectionnez Ouvrir un projet Android Studio existant.
+        </li>
+        <li>Ouvrez le répertoire Android dans votre application.
+        </li>
+        <li>Attendez que le projet ait été synchronisé avec succès. (Ça arrive
+            automatiquement une fois que vous ouvrez le projet, mais si ce n'est pas le cas, sélectionnez Sync
+            Projet avec Gradle Files dans le menu Fichier).
+        </li>
+        <li>Maintenant, cliquez sur le bouton Exécuter.</li>
+        </ul>
+        <p><strong>Changer le nom de l'application
+        </strong>
+        </p>
+        <ul>
+        <li>Vous devez vouloir changer le nom de votre application. C'est ainsi que vous pouvez procéder.
+            Suivez l'étape ci-dessous.
+        </li>
+        <li>Ouvrez /android/app/src/main/AndroidManifest.xml et spécifiez le nom votre application
+            .
+        </li>
+        <pre class="lang-cpp"><code>
+        &lt;manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example"&gt;
+                            
+        &lt;uses-permission android:name="android.permission.INTERNET" /&gt;
+        &lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /&gt;
+                            
+        &lt;application
+            android:name="io.flutter.app.FlutterApplication"
+            android:label="YOUR_APPLICATION_NAME"
+            android:icon="@mipmap/ic_launcher"&gt;
+        &lt;activity&gt;
+                                </code>
+                                </pre>
+        </ul>
+
+        <p><strong>Changer l'icône de l'application
+        </strong>
+        </p>
+        <ul>
+        <p>Voir Comment générer une icône d'application ?
+        </li>
+        <li><a href="https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html">Parcourez votre image</a> et cliquez sur l'icône Télécharger. Après avoir généré avec succès,
+            remplacez toutes les icônes dans les dossiers respectifs :
+        </li>
+        </ul>
+        <ul>
+        <li>/mipmap-hdpi in /android/app/src/main/res/ folder</li>
+        <li>/mipmap-mdpi in /android/app/src/main/res/ folder</li>
+        <li>/mipmap-xhdpi in /android/app/src/main/res/ folderr</li>
+        <li>/mipmap-xxhdpi in /android/app/src/main/res/ folder</li>
+        <li>/mipmap-xxxhdpi in /android/app/src/main/res/ folder</li>
+        </ul>
+        <div class="warning">
+        <ul>
+        <li>
+        <i class="fa fa-bullhorn warningText"></i><b class="warningText">Avertissement</b>
+        </li>
+        <li>Le nom de l'icône de l'application doit être ic_launcher</li>
+        </ul>
+        </div>
+        <p><strong>Modifier l'ID de l'application
+        </strong>
+        </p>
+        <ul>
+        <li>Suivez les étapes ci-dessous pour modifier votre identifiant d'application.
+        </li>
+        <li>Ouvrir /android/app/build.gradle
+        </li>
+        <div class="row">
+        <div class="col-md-12">
+        <pre class="lang-cpp"><code>
+        defaultConfig {
+        applicationId "YOUR_APPLICATION_ID"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        }
+                    </code>
+                    </pre>
+        </div>
+        </div>
+
+        <p><strong>Générer un APK signé</strong></p>
+        <ul>
+        <li>Allez dans votre projet et ensuite Tools -> Flutter -> open pour l'édition dans Android Studio comme indiqué ci-dessous</li>
+        <br>
+        <img src="img/apk_step1.png" alt="logo" width="100%"><br><br>
+        <li>Si votre option de 1ère étape n'est pas disponible, sélectionnez File -> open -> Select main folder -> android.</li>
+        <li>Ouvrez le projet dans une nouvelle fenêtre</li>
+        <li>Attendez quelques instants jusqu'à la synchronisation du projet. Après cela, allez à Build -> GenerateSigned Bundle/APK...</li>
+        <br>
+        <img src="img/apk_step2.png" alt="logo" width="100%"><br><br>
+        <li>Sélectionnez Android App Bundle ou l’option APK selon vos besoins. (Android App Bundle est la meilleure solution) et cliquez sur le bouton Suivant.</li>
+        <br>
+        <img src="img/apk_step3.png" alt="logo" width="100%"><br><br>
+        <li>Sélectionnez l'option Créer un nouveau... pour générer une nouvelle clé signée (lorsque vous publiez votre application pour la première fois) et remplissez toutes les options. <a href="https://developer.android.com/studio/publish/app-signing#generate-key">Refer this link </a></li>
+        <br>
+        <img src="img/apk_step4.png" alt="logo" width="100%"><br><br>
+        <li>Cliquez sur le bouton Suivant et vous obtiendrez l'écran suivant...</li>
+        <br>
+        <img src="img/apk_step5.png" alt="logo" width="100%"><br>
+        <p>Sélectionnez Variantes de construction - versions Release et Signature respectivement V1 et V2, comme indiqué ci-dessus, capture d'écran, puis cliquez sur le bouton Terminer.</p>
+        <li>Attendez un moment jusqu'à ce que le processus Gradle Build Running soit terminé. Et enfin, vous obtiendrez le Generate Signed APK : (APK) généré avec succès. à partir de là, cliquez sur l'option Localiser pour obtenir l'emplacement de votre clé APK générée.</li>
+        </ul>
+        </ul>
+
+        </section>
+
+        <section id="config-ios">
+        <h3 class="block-title"><b>iOS Configuration</b>
+        </h3>
+        <hr>
+        <p><strong>Ouvrir le projet dans Android Studio
+        </strong>
+        </p>
+        <ul>
+            <li>Ouvrez Android Studio dans votre projet.</li>
+            <li>Ouvrez le terminal dans Android Studio.</li>
+            <li>Obtenir une publication.</li>
+            <li>Ouvrez le terminal CD iOS.</li>
+            <li>installation du pod.</li>
+            <li>exécuter le projet dans Xcode.</li>
+        </li>
+        </ul>
+        <p><strong>Ouvrir le projet dans Xcode
+        </strong>
+        </p>
+        <ul>
+        <li>
+            Ouvrir Xcode
+        </li>
+        <li>Sélectionnez Ouvrir un autre projet.</li>
+        <li>Ouvrez le répertoire iOS dans votre application.</li>
+        <li>Maintenant, cliquez sur le bouton Terminé.</li>
+        </li>
+        </ul>
+        <p><strong>Changer le nom du paquet
+        </strong>
+        </p>
+        <ul>
+        <li>
+            Sélectionnez l'icône de votre fichier de projet dans le panneau Groupe et fichiers.
+        </li>
+        <li>Puis sélectionnez Cible -> Onglet Infos.</li>
+        <li>Enfin, changez le nom du bundle.</li>
+        </li>
+        </ul>
+        <img src="img/ios_config_img1.png" alt="logo" width="100%">
+
+        <p><strong>Modifier l'identifiant du bundle.
+        </strong>
+        </p>
+        <p>Bundle Id est un identifiant unique de votre application sur iOS et MacOS. iOS et MacOS
+        utilisez-le pour reconnaître les mises à jour de votre application. L'identifiant doit être unique pour votre
+        application.
+        </p>
+        <ul>
+            <li>
+                Sélectionnez l'icône de votre fichier de projet dans le panneau Groupe et fichiers.
+                </li>
+                <li>Sélectionnez l'onglet Général.</li>
+                <li>Après Sélectionner l'onglet Général, vous pouvez voir les détails de votre candidature.</li>
+                <li>Dans la section Identité, renommez votre identifiant de bundle.</li>
+                </li>
+                </ul>
+                <img src="img/ios_config_img2.png" alt="logo" width="100%">
+                <p><strong>Modifier les icônes d'application</strong></p>
+                <ul>
+                <li>voir Comment générer des icônes d'application ?
+                </li>
+                <li>Dans le panneau Groupes et fichiers, recherchez le dossier « Assets.xcassets ».
+                </li>
+                <li>Dans le dossier Assets.xcassets, remplacez AppIcon.
+                </li>
+        </ul>
+
+        </section>
+
+    
+
+        </section>
+
+
+        <section id="changelog">
+        <h2>v1.0.0(28 June 2022)</h2>
+        <div class="content">
+        <ul>
+        <li>Première version</li>
+        </ul>
+        </div>
+        </section>
+
+        <identifiant de section="erreur1">
+        
+        </section>
+        <section id="error2">
+            <h2>SDK Flutter non disponible </h2>
+            <div class="content">
+            <p>Téléchargez le SDK et pointez le chemin du dossier SDK dans vos futurs projets.</p>
+            <p> Il existe différentes sources que vous pouvez essayer</p>
+            <ul>
+            <li>Vous pouvez le cloner depuis le <a href="https://github.com/flutter/flutter">dépôt Github</a>
+        </li>
+        <li>
+        <a href="https://flutter.dev/docs/get-started/install/macos#get-the-flutter-sdk">
+            Télécharger le SDK
+            fichier zip + extrayez-le après le téléchargement
+            </li>
+            <li>Vous pouvez également télécharger n'importe quelle <a href="https://flutter.dev/docs/development/tools/sdk/releases?tab=macos">version (y compris
+            plus ancien)</a> à partir d'ici (Pour Mac, Windows, Linux)</li>
+            </ul>
+            </div>
+            </section>
+
+            <!-- web error -->
+            <section id="errorweb">
+                     <h4>
+
+                        Voici quelques-unes des principales erreurs courantes que l'on peut rencontrer lors du développement web :
+                        
+                        Erreurs de syntaxe HTML/CSS/JavaScript :
+                        Fautes de frappe, oubli de balises fermantes, utilisation incorrecte de la syntaxe, etc.
+                        Problèmes de responsive design :
+                        Affichage incorrect sur différents appareils et tailles d'écran, layout cassé, éléments qui ne s'adaptent pas.
+                        Problèmes de compatibilité entre navigateurs :
+                        Comportements différents selon les navigateurs (Chrome, Firefox, Safari, Edge, etc.), problèmes d'affichage ou de fonctionnalités.
+                        Problèmes de performance :
+                        Chargement trop lent de la page, images/scripts trop lourds, code inefficace.</h4>
+                      <h4>  Problèmes d'accessibilité :
+                        Manque de prise en compte des utilisateurs handicapés (contrastes, navigation au clavier, etc.).
+                        Problèmes de sécurité :
+                        Vulnérabilités XSS (Cross-Site Scripting), CSRF (Cross-Site Request Forgery), injection SQL, etc.
+                        Problèmes de débogage :
+                        Difficultés à identifier et résoudre les bugs, erreurs dans la console du navigateur.</h4>
+
+                       <h4> Problèmes de référencement (SEO) :
+                        Mauvais usage des balises sémantiques, manque d'optimisation des images et du contenu.
+                        Problèmes de gestion de projet :
+                        Mauvaise organisation, manque de communication, difficultés à respecter les délais.
+                        Problèmes liés à la maintenance :
+                        Difficultés à faire évoluer le site web, à mettre à jour les technologies utilisées.
+                        La clé pour éviter ces problèmes est de bien se former, de suivre les bonnes pratiques, de tester régulièrement son site web et de rester à jour sur les dernières tendances et évolutions du web.</h4>
+            </section>
+            <identifiant de section="erreur4">
+            
+
+
+
+        <section id="thank-you">
+        <h2>Merci d'avoir acheté notre application</h2>
+        <div class="document-content">
+        <p>
+            Merci d'avoir acheté notre application ! Nous sommes heureux que vous ayez trouvé ce que vous cherchiez. Notre objectif est que vous soyez toujours satisfait de ce que vous avez acheté chez nous, alors n'hésitez pas à nous faire savoir si votre expérience d'achat n'a pas été excellente. Nous avons hâte de vous revoir.
+        </p>
+        <img src="https://i.ibb.co/m696czT/skype-contact.jpg" alt="skype-contact" border="0">
+        </div>
+        </section>
+
+        </div>
+        </div>
+        </body>
+
+        </html>
